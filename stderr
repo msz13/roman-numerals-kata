@@ -1,1 +1,1 @@
-RomanConverter.cs(5,16): error CS0019: Operator `*' cannot be applied to operands of type `string' and `int'
+RomanConverter.cs(13,1): error CS1519: Unexpected symbol `}' in class, struct, or interface member declaration
