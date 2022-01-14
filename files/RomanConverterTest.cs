@@ -4,7 +4,7 @@ using NUnit.Framework;
 public class HikerTest
 {
     [Test]
-    public void life_the_universe_and_everything()
+    public void should_convert_below_five()
     {
         // a simple example to start you off
         Assert.AreEqual("I", RomanConverter.ToRoman(1));

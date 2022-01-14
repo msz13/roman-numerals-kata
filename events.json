@@ -75,5 +75,21 @@
       32,
       928482
     ]
+  },
+  {
+    "duration": 2.812075,
+    "colour": "green",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 5,
+    "time": [
+      2022,
+      1,
+      14,
+      23,
+      16,
+      22,
+      368736
+    ]
   }
 ]
