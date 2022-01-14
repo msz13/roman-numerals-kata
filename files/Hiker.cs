@@ -1,7 +1,7 @@
-public class Hiker
+public class RomanConverter
 {
-    public static int Answer()
+    public static int ToRoman(Int number)
     {
-        return 6 * 9;
+        return "I";
     }
 }
