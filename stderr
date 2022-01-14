@@ -1,1 +1,0 @@
-RomanConverter.cs(7,16): error CS0019: Operator `*' cannot be applied to operands of type `string' and `int'
