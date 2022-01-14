@@ -11,7 +11,7 @@ public class HikerTest
     }
     
     [Test]
-    public void should_convert_below_five()
+    public void should_convert_three()
     {
         // a simple example to start you off
         Assert.AreEqual("III", RomanConverter.ToRoman(3));

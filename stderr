@@ -1,2 +1,1 @@
-RomanConverterTest.cs(14,17): error CS0111: A member `HikerTest.should_convert_below_five()' is already defined. Rename this member or use different parameter types
-RomanConverterTest.cs(7,17): (Location of the symbol related to previous error)
+RomanConverter.cs(5,16): error CS0019: Operator `*' cannot be applied to operands of type `string' and `int'
