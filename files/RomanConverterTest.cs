@@ -9,4 +9,11 @@ public class HikerTest
         // a simple example to start you off
         Assert.AreEqual("I", RomanConverter.ToRoman(1));
     }
+    
+    [Test]
+    public void should_convert_below_five()
+    {
+        // a simple example to start you off
+        Assert.AreEqual("III", RomanConverter.ToRoman(3));
+    }
 }
