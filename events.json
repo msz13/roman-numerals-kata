@@ -139,5 +139,21 @@
       8,
       641225
     ]
+  },
+  {
+    "duration": 0.954414,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 9,
+    "time": [
+      2022,
+      1,
+      14,
+      23,
+      23,
+      18,
+      601702
+    ]
   }
 ]
