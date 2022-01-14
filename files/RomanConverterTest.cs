@@ -7,6 +7,6 @@ public class HikerTest
     public void life_the_universe_and_everything()
     {
         // a simple example to start you off
-        Assert.AreEqual(I, RomanConverter.ToRoman(1));
+        Assert.AreEqual("I", RomanConverter.ToRoman(1));
     }
 }
