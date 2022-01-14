@@ -1,1 +1,1 @@
-RomanConverter.cs(8,20): error CS0246: The type or namespace name `Dictionary' could not be found. Are you missing `System.Collections.Generic' using directive?
+RomanConverter.cs(7,16): error CS0019: Operator `*' cannot be applied to operands of type `string' and `int'
