@@ -1,6 +1,6 @@
 public class RomanConverter
 {
-    public static int ToRoman(Int number)
+    public static int ToRoman(int number)
     {
         return "I";
     }

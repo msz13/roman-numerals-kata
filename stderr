@@ -1,1 +1,2 @@
-Hiker.cs(3,31): error CS0246: The type or namespace name `Int' could not be found. Are you missing an assembly reference?
+RomanConverter.cs(5,16): error CS0029: Cannot implicitly convert type `string' to `int'
+RomanConverterTest.cs(10,25): error CS0103: The name `I' does not exist in the current context
