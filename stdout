@@ -1,1 +1,35 @@
-Compilation failed: 13 error(s), 0 warnings
+Compilation succeeded - 1 warning(s)
+Runtime Environment
+   OS Version: Linux 5.4.109.0 
+  CLR Version: 4.0.30319.42000
+
+Test Files
+    ./RunTests.dll
+
+
+Errors, Failures and Warnings
+
+1) Failed : HikerTest.should_convert_arabic_to_Roman(10,"X")
+  Expected string length 1 but was 10. Strings differ at index 0.
+  Expected: "X"
+  But was:  "IIIIIIIIII"
+  -----------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <063c2c4db2094204bb9842a7f8fd8df5>:0 
+
+Run Settings
+    DisposeRunners: True
+    WorkDirectory: /sandbox
+    ImageRuntimeVersion: 4.0.30319
+    ImageRequiresX86: False
+    ImageRequiresDefaultAppDomainAssemblyResolver: False
+    NumberOfTestWorkers: 2
+
+Test Run Summary
+  Overall result: Failed
+  Test Count: 6, Passed: 5, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
+  Start time: 2022-01-15 19:46:19Z
+    End time: 2022-01-15 19:46:20Z
+    Duration: 1.010 seconds
+
+Results (nunit3) saved as TestResult.xml

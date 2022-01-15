@@ -1,13 +1,1 @@
-RomanConverter.cs(12,8): error CS1525: Unexpected symbol `if'
-RomanConverter.cs(12,22): error CS1525: Unexpected symbol `)'
-RomanConverter.cs(13,25): error CS1525: Unexpected symbol `1'
-RomanConverter.cs(14,14): error CS1519: Unexpected symbol `else' in class, struct, or interface member declaration
-RomanConverter.cs(15,20): error CS1519: Unexpected symbol `==' in class, struct, or interface member declaration
-RomanConverter.cs(16,9): error CS9010: Primary constructor body is not allowed
-RomanConverter.cs(18,14): error CS1519: Unexpected symbol `else' in class, struct, or interface member declaration
-RomanConverter.cs(19,9): error CS9010: Primary constructor body is not allowed
-RomanConverter.cs(19,9): error CS8041: Primary constructor already has a body
-RomanConverter.cs(23,14): error CS1519: Unexpected symbol `return' in class, struct, or interface member declaration
-RomanConverter.cs(23,27): error CS1519: Unexpected symbol `(' in class, struct, or interface member declaration
-RomanConverter.cs(23,28): error CS1519: Unexpected symbol `)' in class, struct, or interface member declaration
-RomanConverter.cs(27,19): error CS1525: Unexpected symbol `Dictionary', expecting `class', `delegate', `enum', `interface', `partial', `ref', or `struct'
+RomanConverter.cs(27,41): warning CS0414: The private field `RomanConverter.symbols' is assigned but its value is never used
