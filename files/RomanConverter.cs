@@ -9,7 +9,16 @@ public class RomanConverter
     {
                
        var sb = new StringBuilder("");
-       var reminder = arabic;
+       
+       if (isSubstractive(arabic)) 
+       {
+           return sb.Append(substractive[arabic]).ToString();
+       }
+       
+        
+        var reminder = arabic;
+        
+        
        
        reminder = appendOrderOfMagnitude(sb, reminder, 50);
        reminder = appendOrderOfMagnitude(sb, reminder, 10);
@@ -38,23 +47,18 @@ public class RomanConverter
     private static int appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 
     {
        int localReminder; 
-       var result = Math.DivRem(value, orderOfMagnitude, out localReminder);
-       
-       if(result == 4 || result == 9) 
-       {
-         sb.Append(substractive[result]);
-           
-       } else
-       {
-         
-         sb.Append(symbols[orderOfMagnitude], result);
-       } 
-        
-       
-       
-        return  localReminder;
+       var result = Math.DivRem(value, orderOfMagnitude, out localReminder);    
+      
+       sb.Append(symbols[orderOfMagnitude], result);     
+                    
+       return  localReminder;
     }
     
+    
+    private static bool isStrubstractive(int arabic) 
+    {
+        return (arabic == 4 || arabic == 9) ? true : false
+    }
     
     private static Dictionary<int, char> symbols = new Dictionary<int, char>() 
     {
