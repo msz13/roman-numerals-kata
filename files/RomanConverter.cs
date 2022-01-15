@@ -18,7 +18,8 @@ public class RomanConverter
         sb.Append('V', fives);
         if (reminder == 4 ) 
         {
-        sb.Append(0,"IV", 1);
+          sb.Append('I', 1);
+          sb.Append('V', 1);
         } else 
         {
         sb.Append('I', reminder);    
