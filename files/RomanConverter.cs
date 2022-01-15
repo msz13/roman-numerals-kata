@@ -40,12 +40,13 @@ public class RomanConverter
        int localReminder; 
        var result = Math.DivRem(value, orderOfMagnitude, out localReminder);
        
-       if(localReminder != 4) 
-       {
-         sb.Append(symbols[orderOfMagnitude], result);
-       } else
+       if(localReminder 4) 
        {
          sb.Append(substractive[value]);
+       } else
+       {
+         
+         sb.Append(symbols[orderOfMagnitude], result);
        } 
         
        
