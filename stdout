@@ -13,7 +13,7 @@ Errors, Failures and Warnings
   Expected: "V"
   But was:  "IIIII"
   -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <777554b02c2746f8b968b49e0374c4ce>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <2661843edd59480bae3e6f0f13fcd830>:0 
 
 Run Settings
     DisposeRunners: True
@@ -27,8 +27,8 @@ Test Run Summary
   Overall result: Failed
   Test Count: 5, Passed: 4, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
     Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2022-01-15 19:17:34Z
-    End time: 2022-01-15 19:17:35Z
-    Duration: 0.988 seconds
+  Start time: 2022-01-15 19:20:12Z
+    End time: 2022-01-15 19:20:13Z
+    Duration: 1.002 seconds
 
 Results (nunit3) saved as TestResult.xml
