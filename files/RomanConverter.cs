@@ -9,7 +9,8 @@ public class RomanConverter
         var sb = new StringBuilder("");
         
         int reminder;
-        var tens = Math.DivRem(arabic, 10, out reminder);
+        var fifties = Math.DivRem(arabic, 50, out reminder); 
+        var tens = Math.DivRem(reminder, 10, out reminder);
         var fives = Math.DivRem(reminder, 5, out reminder);      
                  
         sb.Append('X',tens);            
