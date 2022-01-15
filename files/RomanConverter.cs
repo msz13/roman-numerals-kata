@@ -38,9 +38,16 @@ public class RomanConverter
     private static int appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 
     {
       int localReminder; 
-      var result = Math.DivRem(value, orderOfMagnitude, out localReminder); 
-       sb.Append(symbols[orderOfMagnitude], result);
-       return  localReminder;
+      var result = Math.DivRem(value, orderOfMagnitude, out localReminder);
+       if(localReminder != 4) 
+       {
+         sb.Append(symbols[orderOfMagnitude], result);
+       } else
+       {
+         sb.Append(substractive[localreminder])
+       }
+       
+        return  localReminder;
     }
     
     
@@ -49,8 +56,14 @@ public class RomanConverter
         {50, 'L'},
         {10, 'X'},
         {5, 'V'},
+        {4, "IV"}
         {1, 'I'}
     };
+    
+    private static Dictionary<int, char[]> substractive = new Dictionary<int, char[]>() 
+    {
+        {4, {'I','V'}}
+    }
            
     
    

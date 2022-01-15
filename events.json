@@ -1595,5 +1595,21 @@
       17,
       236728
     ]
+  },
+  {
+    "duration": 0.970161,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 100,
+    "time": [
+      2022,
+      1,
+      15,
+      22,
+      24,
+      57,
+      532835
+    ]
   }
 ]
