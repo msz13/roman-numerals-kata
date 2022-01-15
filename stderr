@@ -1,2 +1,4 @@
 RomanConverter.cs(41,11): warning CS0219: The variable `result' is assigned but its value is never used
-RomanConverter.cs(56,42): warning CS0414: The private field `RomanConverter.symbols' is assigned but its value is never used
+RomanConverter.cs(66,9): error CS1950: The best overloaded collection initalizer method `System.Collections.Generic.Dictionary<int,char[]>.Add(int, char[])' has some invalid arguments
+/usr/lib/mono/4.5/mscorlib.dll (Location of the symbol related to previous error)
+RomanConverter.cs(66,13): error CS1503: Argument `#2' cannot convert `string' expression to type `char[]'
