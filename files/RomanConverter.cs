@@ -63,7 +63,7 @@ public class RomanConverter
     
     private static Dictionary<int, char[]> substractive = new Dictionary<int, char[]>() 
     {
-        {4, {'I','V'}}
+        {4, new char[] {'I','V'}}
     };
            
     
