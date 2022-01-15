@@ -1,10 +1,2 @@
-RomanConverter.cs(15,9): error CS1501: No overload for method `appendOrderOfMagnitude' takes `2' arguments
-RomanConverter.cs(39,25): (Location of the symbol related to previous error)
-RomanConverter.cs(16,9): error CS1501: No overload for method `appendOrderOfMagnitude' takes `2' arguments
-RomanConverter.cs(39,25): (Location of the symbol related to previous error)
-RomanConverter.cs(17,9): error CS1501: No overload for method `appendOrderOfMagnitude' takes `2' arguments
-RomanConverter.cs(39,25): (Location of the symbol related to previous error)
-RomanConverter.cs(18,9): error CS1501: No overload for method `appendOrderOfMagnitude' takes `2' arguments
-RomanConverter.cs(39,25): (Location of the symbol related to previous error)
 RomanConverter.cs(36,16): error CS0103: The name `sb' does not exist in the current context
 RomanConverter.cs(42,8): error CS0103: The name `sb' does not exist in the current context
