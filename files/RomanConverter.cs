@@ -55,7 +55,7 @@ public class RomanConverter
     }
     
     
-    private static bool isStrubstractive(int arabic) 
+    private static bool isStubstractive(int arabic) 
     {
         return (arabic == 4 || arabic == 9) ? true : false;
     }
