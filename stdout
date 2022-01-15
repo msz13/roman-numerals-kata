@@ -1,1 +1,40 @@
-Compilation failed: 1 error(s), 0 warnings
+Compilation succeeded - 2 warning(s)
+Runtime Environment
+   OS Version: Linux 5.4.109.0 
+  CLR Version: 4.0.30319.42000
+
+Test Files
+    ./RunTests.dll
+
+=> HikerTest.should_convert_arabic_to_Roman(4,"IV")
+IV
+IV
+IV
+IV
+
+Errors, Failures and Warnings
+
+1) Failed : HikerTest.should_convert_arabic_to_Roman(4,"IV")
+  Expected string length 2 but was 8. Strings differ at index 2.
+  Expected: "IV"
+  But was:  "IVIVIVIV"
+  -------------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <91f25c3cb250424bab08365cc1280b45>:0 
+
+Run Settings
+    DisposeRunners: True
+    WorkDirectory: /sandbox
+    ImageRuntimeVersion: 4.0.30319
+    ImageRequiresX86: False
+    ImageRequiresDefaultAppDomainAssemblyResolver: False
+    NumberOfTestWorkers: 2
+
+Test Run Summary
+  Overall result: Failed
+  Test Count: 1, Passed: 0, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
+  Start time: 2022-01-15 22:37:12Z
+    End time: 2022-01-15 22:37:13Z
+    Duration: 0.994 seconds
+
+Results (nunit3) saved as TestResult.xml
