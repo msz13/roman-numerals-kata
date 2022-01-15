@@ -1,2 +1,0 @@
-RomanConverter.cs(41,11): warning CS0219: The variable `result' is assigned but its value is never used
-RomanConverter.cs(57,42): warning CS0414: The private field `RomanConverter.symbols' is assigned but its value is never used

@@ -1867,5 +1867,21 @@
       2,
       496173
     ]
+  },
+  {
+    "duration": 2.772373,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 117,
+    "time": [
+      2022,
+      1,
+      15,
+      22,
+      41,
+      10,
+      122376
+    ]
   }
 ]

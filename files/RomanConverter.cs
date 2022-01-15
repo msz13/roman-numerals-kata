@@ -11,9 +11,9 @@ public class RomanConverter
        var sb = new StringBuilder("");
        var reminder = arabic;
        
-      // reminder = appendOrderOfMagnitude(sb, reminder, 50);
-    //   reminder = appendOrderOfMagnitude(sb, reminder, 10);
-     //  reminder = appendOrderOfMagnitude(sb, reminder, 5);
+       reminder = appendOrderOfMagnitude(sb, reminder, 50);
+       reminder = appendOrderOfMagnitude(sb, reminder, 10);
+       reminder = appendOrderOfMagnitude(sb, reminder, 5);
        reminder = appendOrderOfMagnitude(sb, reminder, 1);            
             
         /* var tens = Math.DivRem(reminder, 10, out reminder);
@@ -38,18 +38,18 @@ public class RomanConverter
     private static int appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 
     {
        int localReminder; 
-      var result = Math.DivRem(value, orderOfMagnitude, out localReminder);
+       var result = Math.DivRem(value, orderOfMagnitude, out localReminder);
        
-     /*   if(localReminder != 4) 
+       if(localReminder != 4) 
        {
          sb.Append(symbols[orderOfMagnitude], result);
        } else
        {
          sb.Append(substractive[localReminder]);
-       } */
+       } 
         
-       sb.Append(substractive[value]);
-        Console.WriteLine("substr" + substractive[value]);
+       
+       
         return  localReminder;
     }
     
