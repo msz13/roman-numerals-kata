@@ -13,42 +13,7 @@ Errors, Failures and Warnings
   Expected: "V"
   But was:  "IIIII"
   -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <c3ef6de7f2da44deba65163f525194e3>:0 
-
-2) Failed : HikerTest.should_convert_arabic_to_Roman(10,"X")
-  Expected string length 1 but was 10. Strings differ at index 0.
-  Expected: "X"
-  But was:  "IIIIIIIIII"
-  -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <c3ef6de7f2da44deba65163f525194e3>:0 
-
-3) Failed : HikerTest.should_convert_arabic_to_Roman(50,"L")
-  Expected string length 1 but was 50. Strings differ at index 0.
-  Expected: "L"
-  But was:  "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"
-  -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <c3ef6de7f2da44deba65163f525194e3>:0 
-
-4) Failed : HikerTest.should_convert_arabic_to_Roman(100,"C")
-  Expected string length 1 but was 100. Strings differ at index 0.
-  Expected: "C"
-  But was:  "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII..."
-  -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <c3ef6de7f2da44deba65163f525194e3>:0 
-
-5) Failed : HikerTest.should_convert_arabic_to_Roman(500,"D")
-  Expected string length 1 but was 500. Strings differ at index 0.
-  Expected: "D"
-  But was:  "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII..."
-  -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <c3ef6de7f2da44deba65163f525194e3>:0 
-
-6) Failed : HikerTest.should_convert_arabic_to_Roman(1000,"M")
-  Expected string length 1 but was 1000. Strings differ at index 0.
-  Expected: "M"
-  But was:  "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII..."
-  -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <c3ef6de7f2da44deba65163f525194e3>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <777554b02c2746f8b968b49e0374c4ce>:0 
 
 Run Settings
     DisposeRunners: True
@@ -60,10 +25,10 @@ Run Settings
 
 Test Run Summary
   Overall result: Failed
-  Test Count: 10, Passed: 4, Failed: 6, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 6, Errors: 0, Invalid: 0
-  Start time: 2022-01-15 19:17:04Z
-    End time: 2022-01-15 19:17:05Z
-    Duration: 0.999 seconds
+  Test Count: 5, Passed: 4, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
+  Start time: 2022-01-15 19:17:34Z
+    End time: 2022-01-15 19:17:35Z
+    Duration: 0.988 seconds
 
 Results (nunit3) saved as TestResult.xml
