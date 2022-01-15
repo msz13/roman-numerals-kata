@@ -1,1 +1,1 @@
-RomanConverter.cs(53,17): error CS0103: The name `localReminder' does not exist in the current context
+RomanConverter.cs(43,11): error CS0103: The name `resut' does not exist in the current context
