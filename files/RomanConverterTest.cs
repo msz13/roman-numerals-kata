@@ -12,6 +12,7 @@ public class HikerTest
     [TestCase(6, "VI")]
     [TestCase(8, "VIII")]
     [TestCase(10, "X")]
+    [TestCase(14, "XIV")]
     [TestCase(15, "XV")]
     [TestCase(18, "XVIII")]
     [TestCase(20, "XX")]
