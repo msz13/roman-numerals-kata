@@ -10,10 +10,10 @@ public class RomanConverter
             
         if(isFive == 1 ) 
         {
-            sb.Append('I', 1);
+            sb.Append('V, 1);
         } else 
         {
-           sb.Apend(symbols[1], arabic);
+           sb.Append('I', arabic);
         }
         
         return sb.ToString();

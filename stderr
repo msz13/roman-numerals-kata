@@ -1,8 +1,3 @@
-RomanConverter.cs(16,15): error CS1061: Type `System.Text.StringBuilder' does not contain a definition for `Apend' and no extension method `Apend' of type `System.Text.StringBuilder' could be found. Are you missing an assembly reference?
-/usr/lib/mono/4.5/mscorlib.dll (Location of the symbol related to previous error)
-RomanConverter.cs(24,9): error CS1950: The best overloaded collection initalizer method `System.Collections.Generic.Dictionary<int,string>.Add(int, string)' has some invalid arguments
-/usr/lib/mono/4.5/mscorlib.dll (Location of the symbol related to previous error)
-RomanConverter.cs(24,13): error CS1503: Argument `#2' cannot convert `char' expression to type `string'
-RomanConverter.cs(25,9): error CS1950: The best overloaded collection initalizer method `System.Collections.Generic.Dictionary<int,string>.Add(int, string)' has some invalid arguments
-/usr/lib/mono/4.5/mscorlib.dll (Location of the symbol related to previous error)
-RomanConverter.cs(25,13): error CS1503: Argument `#2' cannot convert `char' expression to type `string'
+RomanConverter.cs(13,23): error CS1012: Too many characters in character literal
+RomanConverter.cs(14,8): error CS1525: Unexpected symbol `}', expecting `)' or `,'
+RomanConverter.cs(14,9): error CS1002: ; expected
