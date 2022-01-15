@@ -3,7 +3,7 @@ using NUnit.Framework;
 [TestFixture]
 public class HikerTest
 {
-   // [TestCase(1, "I")]
+    [TestCase(1, "I")]
     [TestCase(2, "II")]
    /*   [TestCase(3, "III")]
     [TestCase(3, "III")]
