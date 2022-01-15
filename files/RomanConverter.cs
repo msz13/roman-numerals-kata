@@ -33,13 +33,13 @@ public class RomanConverter
         sb.Append('I', reminder);    
         } */
         
-        return sb.ToString();
+        return _sb.ToString();
     }  
     
     private static void appendOrderOfMagnitude(int orderOfMagnitude) 
     {
       var result = Math.DivRem(_reminder, orderOfMagnitude, out _reminder); 
-       sb.Append(symbols[orderOfMagnitude], result);
+       _sb.Append(symbols[orderOfMagnitude], result);
     }
     
     
