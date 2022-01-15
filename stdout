@@ -13,7 +13,7 @@ Errors, Failures and Warnings
   Expected: "IV"
   But was:  "IVIVIVIIII"
   -------------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <e97aebd8a3894597bf84f7096d6befc8>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <d0f6e3425b6f4e408f7d75953d00725f>:0 
 
 Run Settings
     DisposeRunners: True
@@ -25,10 +25,10 @@ Run Settings
 
 Test Run Summary
   Overall result: Failed
-  Test Count: 15, Passed: 14, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
+  Test Count: 1, Passed: 0, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
     Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2022-01-15 22:28:16Z
-    End time: 2022-01-15 22:28:17Z
-    Duration: 1.047 seconds
+  Start time: 2022-01-15 22:29:35Z
+    End time: 2022-01-15 22:29:36Z
+    Duration: 1.011 seconds
 
 Results (nunit3) saved as TestResult.xml
