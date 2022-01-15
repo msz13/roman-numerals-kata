@@ -4,8 +4,8 @@ using NUnit.Framework;
 public class HikerTest
 {
     [TestCase(1, "I")]
-  /*  [TestCase(2, "II")]
-    [TestCase(3, "III")]
+    [TestCase(2, "II")]
+   /*   [TestCase(3, "III")]
     [TestCase(3, "III")]
    // [TestCase(4, "IV")]
     [TestCase(5, "V")]
