@@ -21,7 +21,7 @@ public class RomanConverter
         if(isFive == 1 ) 
         {
             sb.Append('V', 1);
-            sb.Append('I', 0);
+            sb.Append('I', fiveReminder);
             return sb.ToString();
         }  
         {
