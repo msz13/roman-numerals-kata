@@ -14,7 +14,7 @@ public class RomanConverter
         
             
         if(isTen == 1) {
-           sb.Append('X',1);
+           sb.Append('X',isTen);
            return sb.ToString();
         } 
         
