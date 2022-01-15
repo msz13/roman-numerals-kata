@@ -57,7 +57,7 @@ public class RomanConverter
     
     private static bool isStrubstractive(int arabic) 
     {
-        return (arabic == 4 || arabic == 9) ? true : false
+        return (arabic == 4 || arabic == 9) ? true : false;
     }
     
     private static Dictionary<int, char> symbols = new Dictionary<int, char>() 
