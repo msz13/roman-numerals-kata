@@ -4,8 +4,8 @@ using NUnit.Framework;
 public class HikerTest
 {
     [TestCase(1, "I")]
-    [TestCase(1, "II")]
-    [TestCase(1, "III")]
+    [TestCase(2, "II")]
+    [TestCase(3, "III")]
     public void should_convert_arabic_to_Roman(int arabic, string roman)
     {
         // a simple example to start you off
