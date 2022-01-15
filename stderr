@@ -1,0 +1,1 @@
+RomanConverter.cs(43,11): error CS0019: Operator `|' cannot be applied to operands of type `bool' and `int'
