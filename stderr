@@ -1,0 +1,2 @@
+RomanConverter.cs(21,19): error CS1012: Too many characters in character literal
+RomanConverter.cs(22,9): error CS1002: ; expected
