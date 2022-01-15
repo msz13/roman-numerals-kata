@@ -35,7 +35,7 @@ public class RomanConverter
         return sb.ToString();
     }  
     
-    private static void appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 
+    private static int appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 
     {
       int localReminder; 
       var result = Math.DivRem(value, orderOfMagnitude, out localReminder); 
