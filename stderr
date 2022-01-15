@@ -1,0 +1,2 @@
+RomanConverter.cs(9,8): error CS1525: Unexpected symbol `var'
+RomanConverter.cs(11,8): error CS1525: Unexpected symbol `return'

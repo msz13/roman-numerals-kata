@@ -5,7 +5,12 @@ public class RomanConverter
 {
     public static string ToRoman(int arabic)
     {
-        return new StringBuilder().Insert(0, symbols[1], arabic).ToString();
+        var sb = new StringBuilder()
+        var isFive = arabic/5
+            
+        return isFive == 1 ? sb.Insert(0, symbols[5], 1) 
+            :            
+            sb.Insert(0, symbols[1], arabic).ToString();
     }
     
     private static Dictionary<int,string> symbols = new Dictionary<int, string>() {
