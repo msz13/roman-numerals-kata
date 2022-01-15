@@ -1,4 +1,4 @@
-Compilation succeeded - 1 warning(s)
+Compilation succeeded - 2 warning(s)
 Runtime Environment
    OS Version: Linux 5.4.109.0 
   CLR Version: 4.0.30319.42000
@@ -6,6 +6,22 @@ Runtime Environment
 Test Files
     ./RunTests.dll
 
+
+Errors, Failures and Warnings
+
+1) Failed : HikerTest.should_convert_arabic_to_Roman(10,"X")
+  Expected string length 1 but was 11. Strings differ at index 1.
+  Expected: "X"
+  But was:  "XIIIIIIIIII"
+  ------------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <e1de0a353ede42fa8a0471009b560801>:0 
+
+2) Failed : HikerTest.should_convert_arabic_to_Roman(20,"XX")
+  Expected string length 2 but was 22. Strings differ at index 2.
+  Expected: "XX"
+  But was:  "XXIIIIIIIIIIIIIIIIIIII"
+  -------------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <e1de0a353ede42fa8a0471009b560801>:0 
 
 Run Settings
     DisposeRunners: True
@@ -16,10 +32,11 @@ Run Settings
     NumberOfTestWorkers: 2
 
 Test Run Summary
-  Overall result: Passed
-  Test Count: 9, Passed: 9, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0
-  Start time: 2022-01-15 20:27:52Z
-    End time: 2022-01-15 20:27:53Z
-    Duration: 1.003 seconds
+  Overall result: Failed
+  Test Count: 9, Passed: 7, Failed: 2, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 2, Errors: 0, Invalid: 0
+  Start time: 2022-01-15 20:28:15Z
+    End time: 2022-01-15 20:28:16Z
+    Duration: 1.015 seconds
 
 Results (nunit3) saved as TestResult.xml
