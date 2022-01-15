@@ -10,13 +10,13 @@ public class RomanConverter
             
         if(isFive == 1 ) 
         {
-            sb.Insert(0, symbols[5], 1)
+            sb.Insert(0, symbols[5], 1);
         } else 
         {
-           sb.Insert(0, symbols[1], arabic).ToString();
+           sb.Insert(0, symbols[1], arabic);
         }
         
-        return sb.ToString()
+        return sb.ToString();
     }          
            
     
