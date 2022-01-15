@@ -1,2 +1,2 @@
-RomanConverter.cs(51,31): error CS0103: The name `localReminder' does not exist in the current context
-RomanConverter.cs(52,17): error CS0103: The name `localReminder' does not exist in the current context
+RomanConverter.cs(41,11): warning CS0219: The variable `result' is assigned but its value is never used
+RomanConverter.cs(56,42): warning CS0414: The private field `RomanConverter.symbols' is assigned but its value is never used

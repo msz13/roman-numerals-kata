@@ -37,10 +37,10 @@ public class RomanConverter
     
     private static int appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 
     {
-      /* int localReminder; 
+       int localReminder; 
       var result = Math.DivRem(value, orderOfMagnitude, out localReminder);
        
-        if(localReminder != 4) 
+     /*   if(localReminder != 4) 
        {
          sb.Append(symbols[orderOfMagnitude], result);
        } else
