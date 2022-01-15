@@ -1,2 +1,3 @@
-RomanConverter.cs(21,19): error CS1012: Too many characters in character literal
-RomanConverter.cs(22,9): error CS1002: ; expected
+RomanConverter.cs(21,12): error CS1502: The best overloaded method match for `System.Text.StringBuilder.Append(char, int)' has some invalid arguments
+/usr/lib/mono/4.5/mscorlib.dll (Location of the symbol related to previous error)
+RomanConverter.cs(21,19): error CS1503: Argument `#1' cannot convert `string' expression to type `char'
