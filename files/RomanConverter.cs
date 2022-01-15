@@ -10,10 +10,10 @@ public class RomanConverter
             
         if(isFive == 1 ) 
         {
-            sb.Insert(0, symbols[5], 1);
+            sb.Append(symbols[5], 1);
         } else 
         {
-           sb.Insert(0, symbols[1], arabic);
+           sb.Apend(symbols[1], arabic);
         }
         
         return sb.ToString();
@@ -21,7 +21,7 @@ public class RomanConverter
            
     
     private static Dictionary<int,string> symbols = new Dictionary<int, string>() {
-        {1, "I"},
-        {5, "V"}, 
+        {1, 'I'},
+        {5, 'V'}, 
     };
 }

@@ -491,5 +491,21 @@
       18,
       914191
     ]
+  },
+  {
+    "duration": 1.466593,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 31,
+    "time": [
+      2022,
+      1,
+      15,
+      19,
+      33,
+      41,
+      746572
+    ]
   }
 ]
