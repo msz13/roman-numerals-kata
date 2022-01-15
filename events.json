@@ -1371,5 +1371,21 @@
       37,
       207488
     ]
+  },
+  {
+    "duration": 3.107935,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 86,
+    "time": [
+      2022,
+      1,
+      15,
+      21,
+      49,
+      53,
+      673446
+    ]
   }
 ]

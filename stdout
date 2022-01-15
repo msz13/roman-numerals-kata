@@ -13,98 +13,98 @@ Errors, Failures and Warnings
   Expected: "II"
   But was:  "III"
   -------------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <16f6204592dd435794ce2121fb812ac5>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <7be78cfb19864039acf48a1381e99744>:0 
 
 2) Failed : HikerTest.should_convert_arabic_to_Roman(3,"III")
   Expected string length 3 but was 6. Strings differ at index 3.
   Expected: "III"
   But was:  "IIIIII"
   --------------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <16f6204592dd435794ce2121fb812ac5>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <7be78cfb19864039acf48a1381e99744>:0 
 
 3) Failed : HikerTest.should_convert_arabic_to_Roman(3,"III")
   Expected string length 3 but was 9. Strings differ at index 3.
   Expected: "III"
   But was:  "IIIIIIIII"
   --------------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <16f6204592dd435794ce2121fb812ac5>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <7be78cfb19864039acf48a1381e99744>:0 
 
 4) Failed : HikerTest.should_convert_arabic_to_Roman(5,"V")
   Expected string length 1 but was 10. Strings differ at index 0.
   Expected: "V"
   But was:  "IIIIIIIIIV"
   -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <16f6204592dd435794ce2121fb812ac5>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <7be78cfb19864039acf48a1381e99744>:0 
 
 5) Failed : HikerTest.should_convert_arabic_to_Roman(6,"VI")
   Expected string length 2 but was 12. Strings differ at index 0.
   Expected: "VI"
   But was:  "IIIIIIIIIVVI"
   -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <16f6204592dd435794ce2121fb812ac5>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <7be78cfb19864039acf48a1381e99744>:0 
 
 6) Failed : HikerTest.should_convert_arabic_to_Roman(8,"VIII")
   Expected string length 4 but was 16. Strings differ at index 0.
   Expected: "VIII"
   But was:  "IIIIIIIIIVVIVIII"
   -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <16f6204592dd435794ce2121fb812ac5>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <7be78cfb19864039acf48a1381e99744>:0 
 
 7) Failed : HikerTest.should_convert_arabic_to_Roman(10,"X")
   Expected string length 1 but was 17. Strings differ at index 0.
   Expected: "X"
   But was:  "IIIIIIIIIVVIVIIIX"
   -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <16f6204592dd435794ce2121fb812ac5>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <7be78cfb19864039acf48a1381e99744>:0 
 
 8) Failed : HikerTest.should_convert_arabic_to_Roman(14,"XIV")
   Expected string length 3 but was 22. Strings differ at index 0.
   Expected: "XIV"
   But was:  "IIIIIIIIIVVIVIIIXXIIII"
   -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <16f6204592dd435794ce2121fb812ac5>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <7be78cfb19864039acf48a1381e99744>:0 
 
 9) Failed : HikerTest.should_convert_arabic_to_Roman(15,"XV")
   Expected string length 2 but was 24. Strings differ at index 0.
   Expected: "XV"
   But was:  "IIIIIIIIIVVIVIIIXXIIIIXV"
   -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <16f6204592dd435794ce2121fb812ac5>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <7be78cfb19864039acf48a1381e99744>:0 
 
 10) Failed : HikerTest.should_convert_arabic_to_Roman(18,"XVIII")
   Expected string length 5 but was 29. Strings differ at index 0.
   Expected: "XVIII"
   But was:  "IIIIIIIIIVVIVIIIXXIIIIXVXVIII"
   -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <16f6204592dd435794ce2121fb812ac5>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <7be78cfb19864039acf48a1381e99744>:0 
 
 11) Failed : HikerTest.should_convert_arabic_to_Roman(20,"XX")
   Expected string length 2 but was 31. Strings differ at index 0.
   Expected: "XX"
   But was:  "IIIIIIIIIVVIVIIIXXIIIIXVXVIIIXX"
   -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <16f6204592dd435794ce2121fb812ac5>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <7be78cfb19864039acf48a1381e99744>:0 
 
 12) Failed : HikerTest.should_convert_arabic_to_Roman(30,"XXX")
   Expected string length 3 but was 34. Strings differ at index 0.
   Expected: "XXX"
   But was:  "IIIIIIIIIVVIVIIIXXIIIIXVXVIIIXXXXX"
   -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <16f6204592dd435794ce2121fb812ac5>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <7be78cfb19864039acf48a1381e99744>:0 
 
 13) Failed : HikerTest.should_convert_arabic_to_Roman(50,"L")
   Expected string length 1 but was 35. Strings differ at index 0.
   Expected: "L"
   But was:  "IIIIIIIIIVVIVIIIXXIIIIXVXVIIIXXXXXL"
   -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <16f6204592dd435794ce2121fb812ac5>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <7be78cfb19864039acf48a1381e99744>:0 
 
 14) Failed : HikerTest.should_convert_arabic_to_Roman(63,"LXIII")
   Expected string length 5 but was 40. Strings differ at index 0.
   Expected: "LXIII"
   But was:  "IIIIIIIIIVVIVIIIXXIIIIXVXVIIIXXXXXLLXIII"
   -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <16f6204592dd435794ce2121fb812ac5>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <7be78cfb19864039acf48a1381e99744>:0 
 
 Run Settings
     DisposeRunners: True
@@ -118,8 +118,8 @@ Test Run Summary
   Overall result: Failed
   Test Count: 15, Passed: 1, Failed: 14, Warnings: 0, Inconclusive: 0, Skipped: 0
     Failed Tests - Failures: 14, Errors: 0, Invalid: 0
-  Start time: 2022-01-15 21:47:35Z
-    End time: 2022-01-15 21:47:36Z
-    Duration: 0.999 seconds
+  Start time: 2022-01-15 21:49:52Z
+    End time: 2022-01-15 21:49:53Z
+    Duration: 0.989 seconds
 
 Results (nunit3) saved as TestResult.xml
