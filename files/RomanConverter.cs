@@ -49,6 +49,7 @@ public class RomanConverter
        } */
         
        sb.Append(substractive[value]);
+        Console.WriteLine(substractive[value])
         return  localReminder;
     }
     
