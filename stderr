@@ -1,1 +1,1 @@
-RomanConverter.cs(35,41): warning CS0414: The private field `RomanConverter.symbols' is assigned but its value is never used
+RomanConverter.cs(25,12): error CS1525: Unexpected symbol `return'

@@ -763,5 +763,21 @@
       7,
       35595
     ]
+  },
+  {
+    "duration": 0.915763,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 48,
+    "time": [
+      2022,
+      1,
+      15,
+      20,
+      22,
+      37,
+      466431
+    ]
   }
 ]
