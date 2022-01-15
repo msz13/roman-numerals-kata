@@ -1,3 +1,1 @@
-RomanConverter.cs(7,16): error CS1502: The best overloaded method match for `string.String(char, int)' has some invalid arguments
-/usr/lib/mono/4.5/mscorlib.dll (Location of the symbol related to previous error)
-RomanConverter.cs(7,34): error CS1503: Argument `#1' cannot convert `string' expression to type `char'
+RomanConverter.cs(7,20): error CS0246: The type or namespace name `StringBuilder' could not be found. Are you missing `System.Text' using directive?

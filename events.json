@@ -331,5 +331,21 @@
       3,
       405431
     ]
+  },
+  {
+    "duration": 1.354069,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 21,
+    "time": [
+      2022,
+      1,
+      15,
+      19,
+      10,
+      18,
+      190553
+    ]
   }
 ]
