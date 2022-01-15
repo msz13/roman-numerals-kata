@@ -1,1 +1,0 @@
-RomanConverter.cs(8,36): error CS0029: Cannot implicitly convert type `System.Text.StringBuilder' to `string'
