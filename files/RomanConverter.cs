@@ -45,7 +45,7 @@ public class RomanConverter
          sb.Append(symbols[orderOfMagnitude], result);
        } else
        {
-         sb.Append(substractive[localreminder]);
+         sb.Append(substractive[localReminder]);
        }
        
         return  localReminder;

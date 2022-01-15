@@ -1,4 +1,3 @@
-RomanConverter.cs(48,33): error CS0103: The name `localreminder' does not exist in the current context
 RomanConverter.cs(60,9): error CS1950: The best overloaded collection initalizer method `System.Collections.Generic.Dictionary<int,char>.Add(int, char)' has some invalid arguments
 /usr/lib/mono/4.5/mscorlib.dll (Location of the symbol related to previous error)
 RomanConverter.cs(60,13): error CS1503: Argument `#2' cannot convert `string' expression to type `char'
