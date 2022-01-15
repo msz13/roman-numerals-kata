@@ -11,10 +11,10 @@ public class RomanConverter
        var sb = new StringBuilder("");
        var reminder = arabic;
        
-        appendOrderOfMagnitude(sb, reminder, 50);
-        appendOrderOfMagnitude(sb, reminder, 10);
-        appendOrderOfMagnitude(sb, reminder, 5);
-        appendOrderOfMagnitude(sb, reminder, 1);            
+       reminder = appendOrderOfMagnitude(sb, reminder, 50);
+       reminder = appendOrderOfMagnitude(sb, reminder, 10);
+       reminder = appendOrderOfMagnitude(sb, reminder, 5);
+       reminder = appendOrderOfMagnitude(sb, reminder, 1);            
             
         /* var tens = Math.DivRem(reminder, 10, out reminder);
         var fives = Math.DivRem(reminder, 5, out reminder); 
@@ -32,7 +32,7 @@ public class RomanConverter
         sb.Append('I', reminder);    
         } */
         
-        return _sb.ToString();
+        return sb.ToString();
     }  
     
     private static void appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 
@@ -40,7 +40,7 @@ public class RomanConverter
       int localReminder; 
       var result = Math.DivRem(value, orderOfMagnitude, out localReminder); 
        sb.Append(symbols[orderOfMagnitude], result);
-       _reminder = localReminder;
+       return  localReminder;
     }
     
     

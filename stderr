@@ -1,2 +1,5 @@
-RomanConverter.cs(35,16): error CS0103: The name `_sb' does not exist in the current context
-RomanConverter.cs(43,8): error CS0103: The name `_reminder' does not exist in the current context
+RomanConverter.cs(14,19): error CS0029: Cannot implicitly convert type `void' to `int'
+RomanConverter.cs(15,19): error CS0029: Cannot implicitly convert type `void' to `int'
+RomanConverter.cs(16,19): error CS0029: Cannot implicitly convert type `void' to `int'
+RomanConverter.cs(17,19): error CS0029: Cannot implicitly convert type `void' to `int'
+RomanConverter.cs(43,8): error CS0127: `RomanConverter.appendOrderOfMagnitude(System.Text.StringBuilder, int, int)': A return keyword must not be followed by any expression when method returns void
