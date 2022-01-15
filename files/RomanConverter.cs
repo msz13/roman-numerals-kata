@@ -1,13 +1,17 @@
 using System.Collections.Generic;
 using System.Text;
+using System;
 
 public class RomanConverter
 {
     public static string ToRoman(int arabic)
     {
         var sb = new StringBuilder("");
-        var isFive = arabic/5;
+        
+        int fiveReminder;
+        var isFive = Math.DivRem(arabic,5, fiveReminder);
         var isTen = arabic/10;
+        
             
         if(isTen == 1) {
            sb.Append('X',1);
@@ -33,3 +37,5 @@ public class RomanConverter
         {5, 'V'}, 
     };
 }
+
+
