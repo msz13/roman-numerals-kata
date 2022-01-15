@@ -8,8 +8,8 @@ public class RomanConverter
     public static string ToRoman(int arabic)
     {
                
-       sb = new StringBuilder("");
-       reminder = arabic;
+       var sb = new StringBuilder("");
+       var reminder = arabic;
        
         appendOrderOfMagnitude(sb, reminder, 50);
         appendOrderOfMagnitude(sb, reminder, 10);
