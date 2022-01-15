@@ -5,7 +5,7 @@ public class RomanConverter
 {
     public static string ToRoman(int arabic)
     {
-        var sb = new StringBuilder();
+        var sb = new StringBuilder("");
         var isFive = arabic/5;
             
         if(isFive == 1 ) 
