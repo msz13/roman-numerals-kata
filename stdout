@@ -7,10 +7,10 @@ Test Files
     ./RunTests.dll
 
 => HikerTest.should_convert_arabic_to_Roman(4,"IV")
-IV
-IV
-IV
-IV
+substrIV
+substrIV
+substrIV
+substrIV
 
 Errors, Failures and Warnings
 
@@ -19,7 +19,7 @@ Errors, Failures and Warnings
   Expected: "IV"
   But was:  "IVIVIVIV"
   -------------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <91f25c3cb250424bab08365cc1280b45>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <64b9e3b82c7c4d0593f386c606ce2629>:0 
 
 Run Settings
     DisposeRunners: True
@@ -33,8 +33,8 @@ Test Run Summary
   Overall result: Failed
   Test Count: 1, Passed: 0, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
     Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2022-01-15 22:37:12Z
-    End time: 2022-01-15 22:37:13Z
-    Duration: 0.994 seconds
+  Start time: 2022-01-15 22:37:49Z
+    End time: 2022-01-15 22:37:50Z
+    Duration: 0.939 seconds
 
 Results (nunit3) saved as TestResult.xml
