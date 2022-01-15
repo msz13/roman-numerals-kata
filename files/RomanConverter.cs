@@ -4,13 +4,14 @@ using System;
 
 public class RomanConverter
 {
-    static StringBuilder _sb = new StringBuilder("");        
+    static StringBuilder _sb;        
     static int _reminder;
     
     public static string ToRoman(int arabic)
     {
                
-       _reminder = arabic;
+       _sb = new StringBuilder("");
+        _reminder = arabic;
        
         appendOrderOfMagnitude(_reminder, 50);
         appendOrderOfMagnitude(_reminder, 10);
