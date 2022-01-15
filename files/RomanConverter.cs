@@ -4,8 +4,8 @@ using System;
 
 public class RomanConverter
 {
-    StringBuilder _sb = new StringBuilder("");        
-    int _reminder;
+    static StringBuilder _sb = new StringBuilder("");        
+    static int _reminder;
     
     public static string ToRoman(int arabic)
     {
