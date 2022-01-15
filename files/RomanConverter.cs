@@ -7,6 +7,7 @@ public class RomanConverter
     {
         var sb = new StringBuilder("");
         var isFive = arabic/5;
+        var isTen = arabic/10
             
         if(isTen == 10) {
            sb.Append('X',1) ;        
