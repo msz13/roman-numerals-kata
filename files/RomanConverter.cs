@@ -36,7 +36,7 @@ public class RomanConverter
         return sb.ToString();
     }  
     
-    private static void appendOrderOfMagnitude(int value, int orderOfMagnitude) 
+    private static void appendOrderOfMagnitude(int orderOfMagnitude) 
     {
       var result = Math.DivRem(_reminder, orderOfMagnitude, out _reminder); 
        sb.Append(symbols[orderOfMagnitude], result);
@@ -49,7 +49,7 @@ public class RomanConverter
         {10, 'X'},
         {5, 'V'},
         {1, 'I'}
-    }
+    };
            
     
    
