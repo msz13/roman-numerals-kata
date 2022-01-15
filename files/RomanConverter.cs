@@ -40,7 +40,7 @@ public class RomanConverter
        int localReminder; 
        var result = Math.DivRem(value, orderOfMagnitude, out localReminder);
        
-       if(result == 4 | 9) 
+       if(result == 4 || 9) 
        {
          sb.Append(substractive[result]);
        } else
