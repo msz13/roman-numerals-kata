@@ -11,4 +11,4 @@ public class HikerTest
         // a simple example to start you off
         Assert.AreEqual(roman, RomanConverter.ToRoman(arabic));
     }
-   
+}
