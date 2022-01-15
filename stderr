@@ -1,1 +1,1 @@
-RomanConverter.cs(13,9): error CS1002: ; expected
+RomanConverter.cs(11,12): error CS0103: The name `isTen' does not exist in the current context
