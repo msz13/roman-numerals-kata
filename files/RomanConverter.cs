@@ -61,7 +61,7 @@ public class RomanConverter
         {1, 'I'}
     };
     
-    private static Dictionary<int, char[]> substractive = new Dictionary<int, char[]>() 
+    private static Dictionary<int, string> substractive = new Dictionary<int, string>() 
     {
         {4, "IV"}
     };
