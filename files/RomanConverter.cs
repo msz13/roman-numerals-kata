@@ -39,12 +39,13 @@ public class RomanConverter
     {
       int localReminder; 
       var result = Math.DivRem(value, orderOfMagnitude, out localReminder);
-       if(localReminder != 4) 
+       
+        if(localReminder != 4) 
        {
          sb.Append(symbols[orderOfMagnitude], result);
        } else
        {
-         sb.Append(substractive[localreminder])
+         sb.Append(substractive[localreminder]);
        }
        
         return  localReminder;
@@ -63,7 +64,7 @@ public class RomanConverter
     private static Dictionary<int, char[]> substractive = new Dictionary<int, char[]>() 
     {
         {4, {'I','V'}}
-    }
+    };
            
     
    
