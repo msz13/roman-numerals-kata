@@ -9,11 +9,11 @@ Test Files
 Errors, Failures and Warnings
 
 1) Failed : HikerTest.should_convert_arabic_to_Roman(4,"IV")
-  Expected string length 2 but was 10. Strings differ at index 2.
+  Expected string length 2 but was 8. Strings differ at index 2.
   Expected: "IV"
-  But was:  "IVIVIVIIII"
+  But was:  "IVIVIVIV"
   -------------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <be38c26659a045c7a35f0d1e5e920d31>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <f2fc21a6fe6346228969c7d35af02fdf>:0 
 
 Run Settings
     DisposeRunners: True
@@ -27,8 +27,8 @@ Test Run Summary
   Overall result: Failed
   Test Count: 15, Passed: 14, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
     Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2022-01-15 22:43:48Z
-    End time: 2022-01-15 22:43:49Z
-    Duration: 0.998 seconds
+  Start time: 2022-01-15 22:46:10Z
+    End time: 2022-01-15 22:46:11Z
+    Duration: 0.946 seconds
 
 Results (nunit3) saved as TestResult.xml
