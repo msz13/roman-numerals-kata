@@ -1,4 +1,3 @@
-Compilation succeeded - 1 warning(s)
 Runtime Environment
    OS Version: Linux 5.4.109.0 
   CLR Version: 4.0.30319.42000
@@ -6,15 +5,6 @@ Runtime Environment
 Test Files
     ./RunTests.dll
 
-
-Errors, Failures and Warnings
-
-1) Failed : HikerTest.should_convert_arabic_to_Roman(50,"L")
-  Expected string length 1 but was 0. Strings differ at index 0.
-  Expected: "L"
-  But was:  <string.Empty>
-  -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <8f3aa2a6c7d9410281d5e3447c4bc273>:0 
 
 Run Settings
     DisposeRunners: True
@@ -25,11 +15,10 @@ Run Settings
     NumberOfTestWorkers: 2
 
 Test Run Summary
-  Overall result: Failed
-  Test Count: 13, Passed: 12, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2022-01-15 20:37:20Z
-    End time: 2022-01-15 20:37:22Z
-    Duration: 1.056 seconds
+  Overall result: Passed
+  Test Count: 13, Passed: 13, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0
+  Start time: 2022-01-15 20:38:10Z
+    End time: 2022-01-15 20:38:11Z
+    Duration: 0.972 seconds
 
 Results (nunit3) saved as TestResult.xml
