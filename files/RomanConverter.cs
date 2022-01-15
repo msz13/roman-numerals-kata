@@ -10,17 +10,21 @@ public class RomanConverter
         var isTen = arabic/10;
             
         if(isTen == 1) {
-           sb.Append('X',1);        
-        } else 
+           sb.Append('X',1);
+           return sb.ToString();
+        } 
+        
         if(isFive == 1 ) 
         {
             sb.Append('V', 1);
-        } else 
+            return sb.ToString();
+        }  
         {
            sb.Append('I', arabic);
+           return sb.ToString();
         }
         
-        return sb.ToString();
+        
     }          
            
     
