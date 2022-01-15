@@ -43,6 +43,7 @@ public class RomanConverter
        if(result == 4 || result == 9) 
        {
          sb.Append(substractive[result]);
+           
        } else
        {
          
@@ -65,7 +66,8 @@ public class RomanConverter
     
     private static Dictionary<int, string> substractive = new Dictionary<int, string>() 
     {
-        {4, "IV"}
+        {4, "IV"},
+        {9, "IX"}
     };
            
     
