@@ -9,7 +9,7 @@ public class RomanConverter
         var sb = new StringBuilder("");
         
         int reminder;
-        var fifties = Math.DivRem(arabic, 50, out reminder); 
+       
         var tens = Math.DivRem(reminder, 10, out reminder);
         var fives = Math.DivRem(reminder, 5, out reminder); 
                          
@@ -26,7 +26,22 @@ public class RomanConverter
         }
         
         return sb.ToString();
-    }          
+    }  
+    
+    private AppendOrderOfMagnitude(orderOfMagnitude) 
+    {
+      var fifties = Math.DivRem(arabic, 50, out reminder); 
+       sb.Append(symbols[orderOfMagnitude], fifties);
+    }
+    
+    
+    private Dictionary<int, char> symbols = new Dictionary<int, char>() 
+    {
+        {50, 'L'},
+        {10, 'X'},
+        {5, 'V'},
+        {1, 'I'}
+    }
            
     
    
