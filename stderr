@@ -1,0 +1,21 @@
+RomanConverter.cs(11,8): error CS0103: The name `sb' does not exist in the current context
+RomanConverter.cs(12,8): error CS0103: The name `reminder' does not exist in the current context
+RomanConverter.cs(14,32): error CS0103: The name `sb' does not exist in the current context
+RomanConverter.cs(14,36): error CS0103: The name `reminder' does not exist in the current context
+RomanConverter.cs(14,9): error CS1501: No overload for method `appendOrderOfMagnitude' takes `3' arguments
+RomanConverter.cs(38,25): (Location of the symbol related to previous error)
+RomanConverter.cs(15,32): error CS0103: The name `sb' does not exist in the current context
+RomanConverter.cs(15,36): error CS0103: The name `reminder' does not exist in the current context
+RomanConverter.cs(15,9): error CS1501: No overload for method `appendOrderOfMagnitude' takes `3' arguments
+RomanConverter.cs(38,25): (Location of the symbol related to previous error)
+RomanConverter.cs(16,32): error CS0103: The name `sb' does not exist in the current context
+RomanConverter.cs(16,36): error CS0103: The name `reminder' does not exist in the current context
+RomanConverter.cs(16,9): error CS1501: No overload for method `appendOrderOfMagnitude' takes `3' arguments
+RomanConverter.cs(38,25): (Location of the symbol related to previous error)
+RomanConverter.cs(17,32): error CS0103: The name `sb' does not exist in the current context
+RomanConverter.cs(17,36): error CS0103: The name `reminder' does not exist in the current context
+RomanConverter.cs(17,9): error CS1501: No overload for method `appendOrderOfMagnitude' takes `3' arguments
+RomanConverter.cs(38,25): (Location of the symbol related to previous error)
+RomanConverter.cs(35,16): error CS0103: The name `_sb' does not exist in the current context
+RomanConverter.cs(42,8): error CS0103: The name `_sb' does not exist in the current context
+RomanConverter.cs(43,8): error CS0103: The name `_reminder' does not exist in the current context

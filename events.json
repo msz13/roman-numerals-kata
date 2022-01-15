@@ -1499,5 +1499,21 @@
       12,
       251330
     ]
+  },
+  {
+    "duration": 1.394175,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 94,
+    "time": [
+      2022,
+      1,
+      15,
+      22,
+      2,
+      19,
+      199821
+    ]
   }
 ]

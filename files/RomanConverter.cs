@@ -4,19 +4,17 @@ using System;
 
 public class RomanConverter
 {
-    static StringBuilder _sb;        
-    static int _reminder;
-    
+        
     public static string ToRoman(int arabic)
     {
                
-       _sb = new StringBuilder("");
-        _reminder = arabic;
+       sb = new StringBuilder("");
+       reminder = arabic;
        
-        appendOrderOfMagnitude(_reminder, 50);
-        appendOrderOfMagnitude(_reminder, 10);
-        appendOrderOfMagnitude(_reminder, 5);
-        appendOrderOfMagnitude(_reminder, 1);            
+        appendOrderOfMagnitude(sb, reminder, 50);
+        appendOrderOfMagnitude(sb, reminder, 10);
+        appendOrderOfMagnitude(sb, reminder, 5);
+        appendOrderOfMagnitude(sb, reminder, 1);            
             
         /* var tens = Math.DivRem(reminder, 10, out reminder);
         var fives = Math.DivRem(reminder, 5, out reminder); 
