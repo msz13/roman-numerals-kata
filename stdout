@@ -9,6 +9,134 @@ Test Files
 => HikerTest.should_convert_arabic_to_Roman(4,"IV")
 substrIV
 
+Errors, Failures and Warnings
+
+1) Error : HikerTest.should_convert_arabic_to_Roman(1,"I")
+System.Collections.Generic.KeyNotFoundException : The given key '1' was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+  at RomanConverter.appendOrderOfMagnitude (System.Text.StringBuilder sb, System.Int32 value, System.Int32 orderOfMagnitude) [0x0000a] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at RomanConverter.ToRoman (System.Int32 arabic) [0x0000d] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+
+2) Error : HikerTest.should_convert_arabic_to_Roman(2,"II")
+System.Collections.Generic.KeyNotFoundException : The given key '2' was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+  at RomanConverter.appendOrderOfMagnitude (System.Text.StringBuilder sb, System.Int32 value, System.Int32 orderOfMagnitude) [0x0000a] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at RomanConverter.ToRoman (System.Int32 arabic) [0x0000d] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+
+3) Error : HikerTest.should_convert_arabic_to_Roman(3,"III")
+System.Collections.Generic.KeyNotFoundException : The given key '3' was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+  at RomanConverter.appendOrderOfMagnitude (System.Text.StringBuilder sb, System.Int32 value, System.Int32 orderOfMagnitude) [0x0000a] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at RomanConverter.ToRoman (System.Int32 arabic) [0x0000d] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+
+4) Error : HikerTest.should_convert_arabic_to_Roman(3,"III")
+System.Collections.Generic.KeyNotFoundException : The given key '3' was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+  at RomanConverter.appendOrderOfMagnitude (System.Text.StringBuilder sb, System.Int32 value, System.Int32 orderOfMagnitude) [0x0000a] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at RomanConverter.ToRoman (System.Int32 arabic) [0x0000d] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+
+5) Error : HikerTest.should_convert_arabic_to_Roman(5,"V")
+System.Collections.Generic.KeyNotFoundException : The given key '5' was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+  at RomanConverter.appendOrderOfMagnitude (System.Text.StringBuilder sb, System.Int32 value, System.Int32 orderOfMagnitude) [0x0000a] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at RomanConverter.ToRoman (System.Int32 arabic) [0x0000d] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+
+6) Error : HikerTest.should_convert_arabic_to_Roman(6,"VI")
+System.Collections.Generic.KeyNotFoundException : The given key '6' was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+  at RomanConverter.appendOrderOfMagnitude (System.Text.StringBuilder sb, System.Int32 value, System.Int32 orderOfMagnitude) [0x0000a] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at RomanConverter.ToRoman (System.Int32 arabic) [0x0000d] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+
+7) Error : HikerTest.should_convert_arabic_to_Roman(8,"VIII")
+System.Collections.Generic.KeyNotFoundException : The given key '8' was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+  at RomanConverter.appendOrderOfMagnitude (System.Text.StringBuilder sb, System.Int32 value, System.Int32 orderOfMagnitude) [0x0000a] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at RomanConverter.ToRoman (System.Int32 arabic) [0x0000d] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+
+8) Error : HikerTest.should_convert_arabic_to_Roman(10,"X")
+System.Collections.Generic.KeyNotFoundException : The given key '10' was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+  at RomanConverter.appendOrderOfMagnitude (System.Text.StringBuilder sb, System.Int32 value, System.Int32 orderOfMagnitude) [0x0000a] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at RomanConverter.ToRoman (System.Int32 arabic) [0x0000d] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+
+9) Error : HikerTest.should_convert_arabic_to_Roman(15,"XV")
+System.Collections.Generic.KeyNotFoundException : The given key '15' was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+  at RomanConverter.appendOrderOfMagnitude (System.Text.StringBuilder sb, System.Int32 value, System.Int32 orderOfMagnitude) [0x0000a] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at RomanConverter.ToRoman (System.Int32 arabic) [0x0000d] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+
+10) Error : HikerTest.should_convert_arabic_to_Roman(18,"XVIII")
+System.Collections.Generic.KeyNotFoundException : The given key '18' was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+  at RomanConverter.appendOrderOfMagnitude (System.Text.StringBuilder sb, System.Int32 value, System.Int32 orderOfMagnitude) [0x0000a] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at RomanConverter.ToRoman (System.Int32 arabic) [0x0000d] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+
+11) Error : HikerTest.should_convert_arabic_to_Roman(20,"XX")
+System.Collections.Generic.KeyNotFoundException : The given key '20' was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+  at RomanConverter.appendOrderOfMagnitude (System.Text.StringBuilder sb, System.Int32 value, System.Int32 orderOfMagnitude) [0x0000a] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at RomanConverter.ToRoman (System.Int32 arabic) [0x0000d] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+
+12) Error : HikerTest.should_convert_arabic_to_Roman(30,"XXX")
+System.Collections.Generic.KeyNotFoundException : The given key '30' was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+  at RomanConverter.appendOrderOfMagnitude (System.Text.StringBuilder sb, System.Int32 value, System.Int32 orderOfMagnitude) [0x0000a] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at RomanConverter.ToRoman (System.Int32 arabic) [0x0000d] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+
+13) Error : HikerTest.should_convert_arabic_to_Roman(50,"L")
+System.Collections.Generic.KeyNotFoundException : The given key '50' was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+  at RomanConverter.appendOrderOfMagnitude (System.Text.StringBuilder sb, System.Int32 value, System.Int32 orderOfMagnitude) [0x0000a] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at RomanConverter.ToRoman (System.Int32 arabic) [0x0000d] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+
+14) Error : HikerTest.should_convert_arabic_to_Roman(63,"LXIII")
+System.Collections.Generic.KeyNotFoundException : The given key '63' was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+  at RomanConverter.appendOrderOfMagnitude (System.Text.StringBuilder sb, System.Int32 value, System.Int32 orderOfMagnitude) [0x0000a] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at RomanConverter.ToRoman (System.Int32 arabic) [0x0000d] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <0e2ce45ff3da40a2a2733c9286936952>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+
 Run Settings
     DisposeRunners: True
     WorkDirectory: /sandbox
@@ -18,10 +146,11 @@ Run Settings
     NumberOfTestWorkers: 2
 
 Test Run Summary
-  Overall result: Passed
-  Test Count: 1, Passed: 1, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0
-  Start time: 2022-01-15 22:39:24Z
-    End time: 2022-01-15 22:39:25Z
-    Duration: 0.958 seconds
+  Overall result: Failed
+  Test Count: 15, Passed: 1, Failed: 14, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 0, Errors: 14, Invalid: 0
+  Start time: 2022-01-15 22:40:01Z
+    End time: 2022-01-15 22:40:02Z
+    Duration: 1.066 seconds
 
 Results (nunit3) saved as TestResult.xml
