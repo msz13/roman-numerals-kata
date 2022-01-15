@@ -9,19 +9,68 @@ Test Files
 
 Errors, Failures and Warnings
 
-1) Failed : HikerTest.should_convert_arabic_to_Roman(10,"X")
-  Expected string length 1 but was 11. Strings differ at index 1.
-  Expected: "X"
-  But was:  "XIIIIIIIIII"
-  ------------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <e1de0a353ede42fa8a0471009b560801>:0 
+1) Failed : HikerTest.should_convert_arabic_to_Roman(1,"I")
+  Expected string length 1 but was 3. Strings differ at index 0.
+  Expected: "I"
+  But was:  "VII"
+  -----------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <18899fdbcdf646e6a5b162222ea61086>:0 
 
-2) Failed : HikerTest.should_convert_arabic_to_Roman(20,"XX")
-  Expected string length 2 but was 22. Strings differ at index 2.
-  Expected: "XX"
-  But was:  "XXIIIIIIIIIIIIIIIIIIII"
+2) Failed : HikerTest.should_convert_arabic_to_Roman(2,"II")
+  Expected string length 2 but was 5. Strings differ at index 0.
+  Expected: "II"
+  But was:  "VIIII"
+  -----------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <18899fdbcdf646e6a5b162222ea61086>:0 
+
+3) Failed : HikerTest.should_convert_arabic_to_Roman(3,"III")
+  Expected string length 3 but was 7. Strings differ at index 0.
+  Expected: "III"
+  But was:  "VIIIIII"
+  -----------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <18899fdbcdf646e6a5b162222ea61086>:0 
+
+4) Failed : HikerTest.should_convert_arabic_to_Roman(3,"III")
+  Expected string length 3 but was 7. Strings differ at index 0.
+  Expected: "III"
+  But was:  "VIIIIII"
+  -----------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <18899fdbcdf646e6a5b162222ea61086>:0 
+
+5) Failed : HikerTest.should_convert_arabic_to_Roman(5,"V")
+  Expected string length 1 but was 6. Strings differ at index 1.
+  Expected: "V"
+  But was:  "VIIIII"
+  ------------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <18899fdbcdf646e6a5b162222ea61086>:0 
+
+6) Failed : HikerTest.should_convert_arabic_to_Roman(6,"VI")
+  Expected string length 2 but was 8. Strings differ at index 2.
+  Expected: "VI"
+  But was:  "VIIIIIII"
   -------------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <e1de0a353ede42fa8a0471009b560801>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <18899fdbcdf646e6a5b162222ea61086>:0 
+
+7) Failed : HikerTest.should_convert_arabic_to_Roman(8,"VIII")
+  Expected string length 4 but was 12. Strings differ at index 4.
+  Expected: "VIII"
+  But was:  "VIIIIIIIIIII"
+  ---------------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <18899fdbcdf646e6a5b162222ea61086>:0 
+
+8) Failed : HikerTest.should_convert_arabic_to_Roman(10,"X")
+  Expected string length 1 but was 12. Strings differ at index 1.
+  Expected: "X"
+  But was:  "XVIIIIIIIIII"
+  ------------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <18899fdbcdf646e6a5b162222ea61086>:0 
+
+9) Failed : HikerTest.should_convert_arabic_to_Roman(20,"XX")
+  Expected string length 2 but was 23. Strings differ at index 2.
+  Expected: "XX"
+  But was:  "XXVIIIIIIIIIIIIIIIIIIII"
+  -------------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <18899fdbcdf646e6a5b162222ea61086>:0 
 
 Run Settings
     DisposeRunners: True
@@ -33,10 +82,10 @@ Run Settings
 
 Test Run Summary
   Overall result: Failed
-  Test Count: 9, Passed: 7, Failed: 2, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 2, Errors: 0, Invalid: 0
-  Start time: 2022-01-15 20:28:15Z
-    End time: 2022-01-15 20:28:16Z
-    Duration: 1.015 seconds
+  Test Count: 9, Passed: 0, Failed: 9, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 9, Errors: 0, Invalid: 0
+  Start time: 2022-01-15 20:29:41Z
+    End time: 2022-01-15 20:29:42Z
+    Duration: 1.051 seconds
 
 Results (nunit3) saved as TestResult.xml

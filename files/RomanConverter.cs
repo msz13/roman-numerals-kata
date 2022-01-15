@@ -9,25 +9,25 @@ public class RomanConverter
         var sb = new StringBuilder("");
         
         int fiveReminder;
-        var isFive = Math.DivRem(arabic,5, out fiveReminder);
+        var isFive = Math.DivRem(arabic, 5, out fiveReminder);
         var isTen = arabic/10;
         
             
        
-           sb.Append('X',isTen);
+         sb.Append('X',isTen);
            
         
         
-        if(isFive == 1 ) 
-        {
+      //  if(isFive == 1 ) 
+     //   {
             sb.Append('V', 1);
             sb.Append('I', fiveReminder);
-            return sb.ToString();
-        }  
-        {
+      //      return sb.ToString();
+     //   }  
+     //   {
            sb.Append('I', arabic);
-           return sb.ToString();
-        }
+   //        return sb.ToString();
+  //      }
         
         return sb.ToString();
     }          
