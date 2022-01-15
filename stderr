@@ -1,3 +1,1 @@
-RomanConverter.cs(12,27): error CS1502: The best overloaded method match for `System.Math.DivRem(int, int, out int)' has some invalid arguments
-/usr/lib/mono/4.5/mscorlib.dll (Location of the symbol related to previous error)
-RomanConverter.cs(12,44): error CS1620: Argument `#3' is missing `out' modifier
+RomanConverter.cs(35,41): warning CS0414: The private field `RomanConverter.symbols' is assigned but its value is never used

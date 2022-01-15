@@ -9,7 +9,7 @@ public class RomanConverter
         var sb = new StringBuilder("");
         
         int fiveReminder;
-        var isFive = Math.DivRem(arabic,5, fiveReminder);
+        var isFive = Math.DivRem(arabic,5, out fiveReminder);
         var isTen = arabic/10;
         
             
