@@ -1,1 +1,1 @@
-RomanConverter.cs(7,20): error CS0246: The type or namespace name `StringBuilder' could not be found. Are you missing `System.Text' using directive?
+RomanConverter.cs(8,36): error CS0029: Cannot implicitly convert type `System.Text.StringBuilder' to `string'
