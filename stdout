@@ -8,13 +8,12 @@ Test Files
 
 Errors, Failures and Warnings
 
-1) Error : HikerTest.should_convert_three
-System.Collections.Generic.KeyNotFoundException : The given key '3' was not present in the dictionary.
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
-  at RomanConverter.ToRoman (System.Int32 number) [0x00000] in <fd140c30352a4aa481ad69950153ed77>:0 
-  at HikerTest.should_convert_three () [0x00000] in <fd140c30352a4aa481ad69950153ed77>:0 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+1) Failed : HikerTest.should_convert_three
+  Expected string length 3 but was 1. Strings differ at index 1.
+  Expected: "III"
+  But was:  "I"
+  ------------^
+  at HikerTest.should_convert_three () [0x00000] in <0f50852824984c76a6148d1294e24ec1>:0 
 
 Run Settings
     DisposeRunners: True
@@ -27,9 +26,9 @@ Run Settings
 Test Run Summary
   Overall result: Failed
   Test Count: 2, Passed: 1, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 0, Errors: 1, Invalid: 0
-  Start time: 2022-01-15 19:01:20Z
-    End time: 2022-01-15 19:01:21Z
-    Duration: 0.968 seconds
+    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
+  Start time: 2022-01-15 19:01:52Z
+    End time: 2022-01-15 19:01:53Z
+    Duration: 0.989 seconds
 
 Results (nunit3) saved as TestResult.xml

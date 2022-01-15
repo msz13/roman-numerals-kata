@@ -4,7 +4,7 @@ public class RomanConverter
 {
     public static string ToRoman(int number)
     {
-        return new string(symbols[number]);
+        return new string(symbols[1]);
     }
     
     private static Dictionary<int,string> symbols = new Dictionary<int, string>() {
