@@ -1915,5 +1915,21 @@
       36,
       321659
     ]
+  },
+  {
+    "duration": 2.938579,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 120,
+    "time": [
+      2022,
+      1,
+      15,
+      22,
+      43,
+      50,
+      223968
+    ]
   }
 ]
