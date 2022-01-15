@@ -8,12 +8,21 @@ Test Files
 
 Errors, Failures and Warnings
 
-1) Failed : HikerTest.should_convert_three
+1) Invalid : HikerTest.should_convert_below_five(1,"I")
+Arguments provided for method with no parameters
+
+2) Invalid : HikerTest.should_convert_below_five(1,"II")
+Arguments provided for method with no parameters
+
+3) Invalid : HikerTest.should_convert_below_five(1,"III")
+Arguments provided for method with no parameters
+
+4) Failed : HikerTest.should_convert_three
   Expected string length 3 but was 1. Strings differ at index 1.
   Expected: "III"
   But was:  "I"
   ------------^
-  at HikerTest.should_convert_three () [0x00000] in <0f50852824984c76a6148d1294e24ec1>:0 
+  at HikerTest.should_convert_three () [0x00000] in <c5985f5cea924e2995a5500e8a05ce71>:0 
 
 Run Settings
     DisposeRunners: True
@@ -25,10 +34,10 @@ Run Settings
 
 Test Run Summary
   Overall result: Failed
-  Test Count: 2, Passed: 1, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2022-01-15 19:01:52Z
-    End time: 2022-01-15 19:01:53Z
-    Duration: 0.989 seconds
+  Test Count: 4, Passed: 0, Failed: 4, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 1, Errors: 0, Invalid: 3
+  Start time: 2022-01-15 19:04:03Z
+    End time: 2022-01-15 19:04:04Z
+    Duration: 1.001 seconds
 
 Results (nunit3) saved as TestResult.xml
