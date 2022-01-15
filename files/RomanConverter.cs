@@ -4,12 +4,10 @@ public class RomanConverter
 {
     public static string ToRoman(int number)
     {
-        return Map[number];
+        return new string(symbols[numbers]);
     }
     
-    private static Dictionary<int,string> Map = new Dictionary<int, string>() {
-        {1, "I"},
-        {2, "II"},
-        {3, "III"}
+    private static Dictionary<int,string> symbols = new Dictionary<int, string>() {
+        {1, "I"},        
     };
 }
