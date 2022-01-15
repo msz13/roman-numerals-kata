@@ -1,2 +1,1 @@
-RomanConverter.cs(12,13): warning CS0219: The variable `isFive' is assigned but its value is never used
-RomanConverter.cs(36,41): warning CS0414: The private field `RomanConverter.symbols' is assigned but its value is never used
+RomanConverter.cs(31,41): warning CS0414: The private field `RomanConverter.symbols' is assigned but its value is never used
