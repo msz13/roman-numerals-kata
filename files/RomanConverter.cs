@@ -9,7 +9,7 @@ public class RomanConverter
         var isFive = arabic/5;
         var isTen = arabic/10;
             
-        if(isTen == 10) {
+        if(isTen == 1) {
            sb.Append('X',1);        
         } else
         if(isFive == 1 ) 
