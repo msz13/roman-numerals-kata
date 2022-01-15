@@ -10,20 +10,12 @@ public class RomanConverter
         
         int reminder;
         var isTen = Math.DivRem(arabic, 10, out reminder);
-        var isFive = Math.DivRem(reminder, 5, out reminder);
-        
+        var isFive = Math.DivRem(reminder, 5, out reminder);      
                  
-       
-        sb.Append('X',isTen);
-                
-        
-      
-            sb.Append('V', isFive);
-            sb.Append('I', reminder);
-     
-           
-  
-        
+        sb.Append('X',isTen);            
+        sb.Append('V', isFive);
+        sb.Append('I', reminder);    
+             
         return sb.ToString();
     }          
            

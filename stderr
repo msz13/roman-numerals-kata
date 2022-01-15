@@ -1,1 +1,1 @@
-RomanConverter.cs(31,41): warning CS0414: The private field `RomanConverter.symbols' is assigned but its value is never used
+RomanConverter.cs(23,41): warning CS0414: The private field `RomanConverter.symbols' is assigned but its value is never used
