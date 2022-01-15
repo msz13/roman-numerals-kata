@@ -35,11 +35,11 @@ public class RomanConverter
         return _sb.ToString();
     }  
     
-    private static void appendOrderOfMagnitude(int value, int orderOfMagnitude) 
+    private static void appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 
     {
       int localReminder; 
       var result = Math.DivRem(value, orderOfMagnitude, out localReminder); 
-       _sb.Append(symbols[orderOfMagnitude], result);
+       sb.Append(symbols[orderOfMagnitude], result);
        _reminder = localReminder;
     }
     
