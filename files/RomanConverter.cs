@@ -20,7 +20,7 @@ public class RomanConverter
     }          
            
     
-    private static Dictionary<int,string> symbols = new Dictionary<int, string>() {
+    private static Dictionary<int,char> symbols = new Dictionary<int, char>() {
         {1, 'I'},
         {5, 'V'}, 
     };
