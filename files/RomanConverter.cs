@@ -13,7 +13,7 @@ public class RomanConverter
         var isTen = arabic/10;
         
             
-        if(isTen == 1) {
+        if(isTen >= 1) {
            sb.Append('X',isTen);
            return sb.ToString();
         } 
