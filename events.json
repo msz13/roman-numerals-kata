@@ -2251,5 +2251,21 @@
       5,
       345392
     ]
+  },
+  {
+    "duration": 1.422101,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 141,
+    "time": [
+      2022,
+      1,
+      16,
+      13,
+      0,
+      19,
+      941262
+    ]
   }
 ]
