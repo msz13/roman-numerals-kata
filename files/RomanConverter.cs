@@ -31,11 +31,11 @@ public class RomanConverter
     {
          if(_reminder == 4) 
         {
-            _sb.Append(substractive[reminder]);
-            return 0;
+            _sb.Append(substractive[_reminder]);
+            _reminder = 0
         } else
         {
-            _reminder = appendOrderOfMagnitude(sb, reminder, 1);
+            _reminder = appendOrderOfMagnitude(_sb, _reminder, 1);
         }
         
         return this;
