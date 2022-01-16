@@ -32,7 +32,7 @@ public class RomanConverter
          if(_reminder == 4) 
         {
             _sb.Append(substractive[_reminder]);
-            _reminder = 0
+            _reminder = 0;
         } else
         {
             _reminder = appendOrderOfMagnitude(_sb, _reminder, 1);
