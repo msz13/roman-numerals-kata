@@ -13,7 +13,14 @@ Errors, Failures and Warnings
   Expected: "XLIV"
   But was:  "XXXXIV"
   ------------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <bace32daec2a4291817839bbd7e07187>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <c649c2034954421fad797f9c2594d7c2>:0 
+
+2) Failed : HikerTest.should_convert_arabic_to_Roman(91,"XCI")
+  Expected string length 3 but was 6. Strings differ at index 0.
+  Expected: "XCI"
+  But was:  "LXXXXI"
+  -----------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <c649c2034954421fad797f9c2594d7c2>:0 
 
 Run Settings
     DisposeRunners: True
@@ -25,10 +32,10 @@ Run Settings
 
 Test Run Summary
   Overall result: Failed
-  Test Count: 20, Passed: 19, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2022-01-16 17:18:13Z
-    End time: 2022-01-16 17:18:14Z
-    Duration: 1.029 seconds
+  Test Count: 21, Passed: 19, Failed: 2, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 2, Errors: 0, Invalid: 0
+  Start time: 2022-01-16 17:32:19Z
+    End time: 2022-01-16 17:32:20Z
+    Duration: 1.089 seconds
 
 Results (nunit3) saved as TestResult.xml
