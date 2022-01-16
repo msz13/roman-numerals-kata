@@ -29,6 +29,7 @@ public class HikerTest
    [TestCase(411, "CDXI")] 
    [TestCase(500, "D")]
    [TestCase(534, "DXXXIV")]
+   [TestCase(504, "DIV")]
    [TestCase(900, "CM")]
    [TestCase(990, "CMXC")]
    [TestCase(1000, "M")] 
