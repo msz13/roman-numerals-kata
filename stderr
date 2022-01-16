@@ -1,4 +1,4 @@
-RomanConverter.cs(34,13): error CS0103: The name `sb' does not exist in the current context
+RomanConverter.cs(34,37): error CS0103: The name `reminder' does not exist in the current context
 RomanConverter.cs(35,20): error CS0029: Cannot implicitly convert type `int' to `RomanConverter'
 RomanConverter.cs(38,48): error CS0103: The name `sb' does not exist in the current context
 RomanConverter.cs(38,52): error CS0103: The name `reminder' does not exist in the current context

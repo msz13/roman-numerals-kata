@@ -31,7 +31,7 @@ public class RomanConverter
     {
          if(_reminder == 4) 
         {
-            sb.Append(substractive[reminder]);
+            _sb.Append(substractive[reminder]);
             return 0;
         } else
         {
