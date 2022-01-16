@@ -35,6 +35,7 @@ public class RomanConverter
             _reminder = 0;
         } else
         {
+            _reminder = appendOrderOfMagnitude(_sb, _reminder, 5);
             _reminder = appendOrderOfMagnitude(_sb, _reminder, 1);
         }
         
