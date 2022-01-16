@@ -1,1 +1,2 @@
-RomanConverterTest.cs(30,47): error CS0234: The type or namespace name `ToRoman' does not exist in the namespace `RomanConverter'. Are you missing an assembly reference?
+RomanConverter.cs(4,1): error CS0138: A `using' directive can only be applied to namespaces but `RomanConverter' denotes a type. Consider using a `using static' instead
+RomanConverter.cs(7,14): (Location of the symbol related to previous error)

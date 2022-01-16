@@ -3,8 +3,7 @@ using System.Text;
 using System;
 using RomanConverter;
 
-namespace RomanConverter 
-{
+
 public class RomanConverter
 {
         
@@ -58,6 +57,6 @@ public class RomanConverter
    
 }
     
-}
+
 
 
