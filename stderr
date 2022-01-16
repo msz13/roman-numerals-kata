@@ -1,1 +1,2 @@
-RomanConverter.cs(12,19): error CS0246: The type or namespace name `RomanNumeralBuilder' could not be found. Are you missing an assembly reference?
+RomanConverter.cs(14,19): error CS0246: The type or namespace name `RomanNumeralBuilder' could not be found. Are you missing an assembly reference?
+RomanConverterTest.cs(30,47): error CS0234: The type or namespace name `ToRoman' does not exist in the namespace `RomanConverter'. Are you missing an assembly reference?

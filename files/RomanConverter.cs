@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using System.Text;
 using System;
 
+namespace RomanConverter 
+{
 public class RomanConverter
 {
         
@@ -49,12 +51,12 @@ public class RomanConverter
     {
         {4, "IV"},
         {9, "IX"}
-    };
-    
-    
-    
+    };   
+       
     
    
+}
+    
 }
 
 

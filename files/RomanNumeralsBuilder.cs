@@ -1,5 +1,7 @@
 using System.Text;
 
+namespace RomanConverter 
+{
 internal class RomanNumeralsBuilder
 {
     StringBuilder _sb;
@@ -9,4 +11,5 @@ internal class RomanNumeralsBuilder
         _reminder = arabic;
         _sb = new StringBuilder("");
     }
+}
 }
