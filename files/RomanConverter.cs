@@ -75,7 +75,7 @@ public class RomanConverter
     
     RomanConverter AppendHoundreds()
     {
-        return AppendOrderOfMagnitude(100, 400, 900);
+        return AppendOrderOfMagnitude(100, 4, 9);
     }
     
     RomanConverter AppendOrderOfMagnitude(int orderOfMagnitude, int firstSubstractive, int secondSubstractive) 
