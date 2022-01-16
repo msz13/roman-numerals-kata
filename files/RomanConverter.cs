@@ -29,24 +29,7 @@ public class RomanConverter
     
     RomanConverter AppendUnits()
     {
-         if(isSubstractive(_reminder)) 
-        {
-            _sb.Append(substractive[_reminder]);
-            _reminder = 0;
-             return this;
-        } 
-        
-       int localReminder; 
-       var result = Math.DivRem(_reminder, 5, out localReminder);  
-        
-       if(result == 1) 
-       {
-        _sb.Append(symbols[5]);
-       }
-        
-       _sb.Append(symbols[1], localReminder);          
-                       
-       return this;
+       return AppendOrderOfMagnitude(1);
     }
     
      RomanConverter AppendTens()
