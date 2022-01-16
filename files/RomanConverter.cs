@@ -45,6 +45,10 @@ public class RomanConverter
     {
         return AppendOrderOfMagnitude(100);
     }
+      RomanConverter AppendThousands()
+    {
+        return AppendOrderOfMagnitude(1000);
+    }
     
     RomanConverter AppendOrderOfMagnitude(int orderOfMagnitude) 
     {   
