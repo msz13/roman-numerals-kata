@@ -13,7 +13,7 @@ Errors, Failures and Warnings
   Expected: "... nie obs?uguje licz wi?kszych ni? 3999"
   But was:  "... nie obs?uguje licz wi?kszych ni? 3999\nParameter name: arabic"
   ----------------------------------------------------^
-  at HikerTest.should_throw_when_arabic_is_greater_than_3999 () [0x00000] in <65828652867e462f9235e6b7b5a5a6f1>:0 
+  at HikerTest.should_throw_when_arabic_is_greater_than_3999 () [0x00000] in <49f97b28216945f1bcf2355e1ab179db>:0 
 
 Run Settings
     DisposeRunners: True
@@ -27,8 +27,8 @@ Test Run Summary
   Overall result: Failed
   Test Count: 30, Passed: 29, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
     Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2022-01-16 19:05:15Z
-    End time: 2022-01-16 19:05:16Z
-    Duration: 1.090 seconds
+  Start time: 2022-01-16 19:06:47Z
+    End time: 2022-01-16 19:06:48Z
+    Duration: 1.042 seconds
 
 Results (nunit3) saved as TestResult.xml
