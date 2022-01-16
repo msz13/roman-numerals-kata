@@ -1,2 +1,1 @@
-RomanConverter.cs(59,8): error CS1525: Unexpected symbol `}', expecting `;'
-RomanConverter.cs(62,8): error CS1525: Unexpected symbol `}', expecting `;'
+RomanConverter.cs(57,43): error CS0103: The name `arabic' does not exist in the current context

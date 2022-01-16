@@ -55,10 +55,10 @@ public class RomanConverter
         if(reminder == 4) 
         {
             return sb.Append(substractive[arabic]).ToString();
-            return 0
+            return 0;
         } else
         {
-            return appendOrderOfMagnitude(sb, reminder, 1)
+            return appendOrderOfMagnitude(sb, reminder, 1);
         }
     }
     
