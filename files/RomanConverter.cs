@@ -10,7 +10,7 @@ public class RomanConverter
                             
                 
         
-       var builder = new RomanNumeralBuilder(arabic).GetResult()
+       return new RomanNumeralBuilder(arabic).GetResult();
         
       /* 
        reminder = appendOrderOfMagnitude(sb, reminder, 50);

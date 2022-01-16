@@ -1,4 +1,1 @@
-RomanConverter.cs(39,4): error CS1525: Unexpected symbol `}', expecting `,' or `;'
-RomanConverter.cs(41,64): error CS1525: Unexpected symbol `int', expecting `,' or `;'
-RomanConverter.cs(41,75): error CS1525: Unexpected symbol `int', expecting `,' or `;'
 RomanNumeralsBuilder.cs(1,15): error CS1527: Namespace elements cannot be explicitly declared as private, protected, protected internal, or private protected
