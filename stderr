@@ -1,1 +1,1 @@
-RomanNumeralsBuilder.cs(17,4): error CS1525: Unexpected symbol `}', expecting `;'
+RomanConverterTest.cs(30,47): error CS0234: The type or namespace name `ToRoman' does not exist in the namespace `RomanConverter'. Are you missing an assembly reference?

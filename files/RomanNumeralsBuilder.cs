@@ -13,6 +13,6 @@ public class RomanNumeralsBuilder
     
     public string GetResult()
     {
-        return _sb.ToString()
+        return _sb.ToString();
     }
 }
