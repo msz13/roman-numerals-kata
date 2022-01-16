@@ -15,8 +15,7 @@ public class RomanConverter
     }
     
     public static string ToRoman(int arabic)
-    {
-                            
+    {                            
               
        return new RomanConverter(arabic).AppendUnits().GetResult();
         
@@ -26,6 +25,7 @@ public class RomanConverter
     {
         return _sb.ToString();
     }
+    
     
     public RomanConverter AppendUnits()
     {
@@ -59,11 +59,10 @@ public class RomanConverter
        return  localReminder;
     }
     
-   
-    
+     
     
   
-    private static Dictionary<int, char> symbols = new Dictionary<int, char>() 
+    private Dictionary<int, char> symbols = new Dictionary<int, char>() 
     {
         {50, 'L'},
         {10, 'X'},
@@ -71,7 +70,7 @@ public class RomanConverter
         {1, 'I'}
     };
     
-    private static Dictionary<int, string> substractive = new Dictionary<int, string>() 
+    private Dictionary<int, string> substractive = new Dictionary<int, string>() 
     {
         {4, "IV"},
         {9, "IX"}
