@@ -29,7 +29,7 @@ public class RomanConverter
     
     RomanConverter AppendUnits()
     {
-         if(isSubstractive(4,9)) 
+         if(isSubstractive(_reminder, 4,9)) 
         {
             _sb.Append(substractive[_reminder]);
             _reminder = 0;
@@ -53,7 +53,7 @@ public class RomanConverter
     {
         var result = Math.DivRem(_reminder, 10, out _reminder);    
          
-         if(isSubstractive(9,4)) 
+         if(isSubstractive(result, 9,4)) 
         {
             _sb.Append(substractive[result * 10]);          
              return this;
@@ -66,7 +66,7 @@ public class RomanConverter
         _sb.Append(symbols[10], result - 5); 
        } else
        {
-        _sb.Append(symbols[10], result);     
+        _sb.Append(symbols[10], result);    
        }       
          
                              
@@ -83,9 +83,9 @@ public class RomanConverter
        return  localReminder;
     }
     
-    bool isSubstractive(int firstValue, int secondValue) 
+    bool isSubstractive(result, int firstValue, int secondValue) 
     {
-        return _reminder == firstValue || _reminder == secondValue;
+        return result == firstValue || result == secondValue;
     }
     
   
