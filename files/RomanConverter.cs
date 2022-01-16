@@ -27,7 +27,7 @@ public class RomanConverter
     }
     
     
-    public RomanConverter AppendUnits()
+    RomanConverter AppendUnits()
     {
          if(_reminder == 4 || _reminder == 9) 
         {
@@ -49,7 +49,7 @@ public class RomanConverter
        return this;
     }
     
-    private int appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 
+    int appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 
     {
        int localReminder; 
        var result = Math.DivRem(value, orderOfMagnitude, out localReminder);    
@@ -62,7 +62,7 @@ public class RomanConverter
     
     
   
-    private Dictionary<int, char> symbols = new Dictionary<int, char>() 
+    Dictionary<int, char> symbols = new Dictionary<int, char>() 
     {
         {50, 'L'},
         {10, 'X'},
@@ -70,7 +70,7 @@ public class RomanConverter
         {1, 'I'}
     };
     
-    private Dictionary<int, string> substractive = new Dictionary<int, string>() 
+    Dictionary<int, string> substractive = new Dictionary<int, string>() 
     {
         {4, "IV"},
         {9, "IX"}
