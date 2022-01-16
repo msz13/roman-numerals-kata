@@ -4043,5 +4043,21 @@
       22,
       340712
     ]
+  },
+  {
+    "duration": 2.927446,
+    "colour": "green",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 253,
+    "time": [
+      2022,
+      1,
+      16,
+      19,
+      11,
+      26,
+      120566
+    ]
   }
 ]

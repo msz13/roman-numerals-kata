@@ -6,14 +6,6 @@ Test Files
     ./RunTests.dll
 
 
-Errors, Failures and Warnings
-
-1) Failed : HikerTest.should_throw_when_arabic_is_greater_than_3999
-  Expected: String containing "Algorytm nie obs?uguje licz wi?kszych ni? 3999
-Parameter name: arabic"
-  But was:  "Algorytm nie obs?uguje licz wi?kszych ni? 3999"
-  at HikerTest.should_throw_when_arabic_is_greater_than_3999 () [0x00000] in <0da94b11a3014ba3a49aefa555083798>:0 
-
 Run Settings
     DisposeRunners: True
     WorkDirectory: /sandbox
@@ -23,11 +15,10 @@ Run Settings
     NumberOfTestWorkers: 2
 
 Test Run Summary
-  Overall result: Failed
-  Test Count: 30, Passed: 29, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2022-01-16 19:10:20Z
-    End time: 2022-01-16 19:10:21Z
-    Duration: 1.042 seconds
+  Overall result: Passed
+  Test Count: 30, Passed: 30, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0
+  Start time: 2022-01-16 19:11:24Z
+    End time: 2022-01-16 19:11:25Z
+    Duration: 0.996 seconds
 
 Results (nunit3) saved as TestResult.xml
