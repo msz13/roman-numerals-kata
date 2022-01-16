@@ -3931,5 +3931,21 @@
       41,
       13605
     ]
+  },
+  {
+    "duration": 0.982932,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 246,
+    "time": [
+      2022,
+      1,
+      16,
+      19,
+      3,
+      12,
+      526458
+    ]
   }
 ]

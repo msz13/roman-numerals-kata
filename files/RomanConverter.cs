@@ -48,7 +48,10 @@ public class RomanConverter
     }
       RomanConverter AppendThousands()
     {
-        return AppendOrderOfMagnitude(1000);
+        if(_reminder >=4000) 
+            throw new ArgumentOutOfRangeException("Algorytm nie obsługuje licz większych niż 3999")
+            
+          return AppendOrderOfMagnitude(1000);
     }
     
     RomanConverter AppendOrderOfMagnitude(int orderOfMagnitude) 
