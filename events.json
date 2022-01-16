@@ -3787,5 +3787,21 @@
       15,
       242240
     ]
+  },
+  {
+    "duration": 2.984874,
+    "colour": "green",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 237,
+    "time": [
+      2022,
+      1,
+      16,
+      18,
+      50,
+      11,
+      785892
+    ]
   }
 ]
