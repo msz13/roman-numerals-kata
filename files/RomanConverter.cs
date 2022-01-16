@@ -58,18 +58,18 @@ public class RomanConverter
              return this;
         } 
         
-       
-      var result = Math.DivRem(_reminder, 50, out _reminder);  
+      result = Math.DivRem(_reminder, 10, out _reminder);   
+      //var result = Math.DivRem(_reminder, 50, out _reminder);  
         
-      if(result == 1) 
+      if(result == 50) 
        {
         _sb.Append(symbols[50]);
-       } 
-        
-      result = Math.DivRem(_reminder, 10, out _reminder);  
-      _sb.Append(symbols[10], result);         
-      
-                       
+       } else
+       {
+        _sb.Append(symbols[10], result);     
+       }       
+         
+                             
        return this;
     }
     
