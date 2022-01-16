@@ -82,9 +82,9 @@ public class RomanConverter
     {   
         var result = Math.DivRem(_reminder, orderOfMagnitude, out _reminder);    
          
-      /*   if(isSubstractive(result, 9,4)) 
+        if(isSubstractive(result, firstSubstractive, secondSubstractive)) 
         {
-            _sb.Append(substractive[result * 10]);          
+            _sb.Append(substractive[result * orderOfMagnitude]);          
              return this;
         } */      
       

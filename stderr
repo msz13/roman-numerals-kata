@@ -1,0 +1,10 @@
+RomanConverter.cs(89,11): error CS1525: Unexpected symbol `/'
+RomanConverter.cs(92,5): error CS1525: Unexpected symbol `if'
+RomanConverter.cs(92,20): error CS0589: Internal compiler error during parsingSystem.NullReferenceException: Object reference not set to an instance of an object
+  at Mono.CSharp.Indirection.get_StartLocation () [0x00000] in <c4c5d89ff38a4bc984b093738c1e8c82>:0 
+  at Mono.CSharp.Binary.get_StartLocation () [0x00000] in <c4c5d89ff38a4bc984b093738c1e8c82>:0 
+  at Mono.CSharp.Binary.get_StartLocation () [0x00000] in <c4c5d89ff38a4bc984b093738c1e8c82>:0 
+  at Mono.CSharp.StatementErrorExpression..ctor (Mono.CSharp.Expression expr) [0x0000d] in <c4c5d89ff38a4bc984b093738c1e8c82>:0 
+  at Mono.CSharp.CSharpParser.case_942 () [0x00029] in <c4c5d89ff38a4bc984b093738c1e8c82>:0 
+  at Mono.CSharp.CSharpParser.yyparse (Mono.CSharp.yyParser.yyInput yyLex) [0x0405b] in <c4c5d89ff38a4bc984b093738c1e8c82>:0 
+  at Mono.CSharp.CSharpParser.parse () [0x00028] in <c4c5d89ff38a4bc984b093738c1e8c82>:0 
