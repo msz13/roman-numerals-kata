@@ -51,26 +51,7 @@ public class RomanConverter
     
      RomanConverter AppendTens()
     {
-        var result = Math.DivRem(_reminder, 10, out _reminder);    
-         
-         if(isSubstractive(result)) 
-        {
-            _sb.Append(substractive[result * 10]);          
-             return this;
-        }       
-      
-        
-      if(result >= 5) 
-       {
-        _sb.Append(symbols[50]);
-        _sb.Append(symbols[10], result - 5); 
-       } else
-       {
-        _sb.Append(symbols[10], result);    
-       }       
-         
-                             
-       return this;
+       return AppendOrderOfMagnitude(10);
     }
     
     RomanConverter AppendHoundreds()
@@ -89,7 +70,7 @@ public class RomanConverter
         }      
       
         
-     if(result >= 5) 
+       if(result >= 5) 
        {
         _sb.Append(symbols[5*orderOfMagnitude]);
         _sb.Append(symbols[orderOfMagnitude], result - 5); 
