@@ -39,41 +39,43 @@ public class RomanConverter
 
     RomanConverter AppendUnits()
     {
-        return AppendOrderOfMagnitude(1);
+        return AppendOrderOfMagnitude(OrdersOfMagnitude.Units);
     }
 
     RomanConverter AppendTens()
     {
-        return AppendOrderOfMagnitude(10);
+        return AppendOrderOfMagnitude(OrdersOfMagnitude.Tens);
     }
 
     RomanConverter AppendHoundreds()
     {
-        return AppendOrderOfMagnitude(100);
+        return AppendOrderOfMagnitude(OrdersOfMagnitude.Houndreads);
     }
     RomanConverter AppendThousands()
     {
-        return AppendOrderOfMagnitude(1000);
+        return AppendOrderOfMagnitude(OrdersOfMagnitude.Thousands);
     }
 
-    RomanConverter AppendOrderOfMagnitude(int orderOfMagnitude)
+    RomanConverter AppendOrderOfMagnitude(OrdersOfMagnitude orderOfMagnitude)
     {
-        var result = Math.DivRem(_reminder, orderOfMagnitude, out _reminder);
+        var _orderOfMagnitude = (int)orderOfMagnitude;
+        
+        var result = Math.DivRem(_reminder, _orderOfMagnitude, out _reminder);
 
         if (isSubstractive(result))
         {
-            _sb.Append(substractive[result * orderOfMagnitude]);
+            _sb.Append(substractive[result * _orderOfMagnitude]);
             return this;
         }
 
         if (result >= 5)
         {
-            _sb.Append(symbols[5 * orderOfMagnitude]);
-            _sb.Append(symbols[orderOfMagnitude], result - 5);
+            _sb.Append(symbols[5 * _orderOfMagnitude]);
+            _sb.Append(symbols[_orderOfMagnitude], result - 5);
         }
         else
         {
-            _sb.Append(symbols[orderOfMagnitude], result);
+            _sb.Append(symbols[_orderOfMagnitude], result);
         }
 
         return this;
@@ -84,6 +86,16 @@ public class RomanConverter
         return number == 4 || number == 9;
     }
 
+    enum OrdersOfMagnitude
+    {
+        Units = 1,
+        Tens = 10,
+
+        Houndreads = 100,
+
+        Thousands = 1000
+
+    }
 
     Dictionary<int, char> symbols = new Dictionary<int, char>()
     {
