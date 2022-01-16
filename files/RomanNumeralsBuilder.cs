@@ -2,7 +2,7 @@ using System.Text;
 
 namespace RomanConverter 
 {
-internal class RomanNumeralsBuilder
+public class RomanNumeralsBuilder
 {
     StringBuilder _sb;
     int _reminder;
