@@ -9,12 +9,7 @@ public class RomanConverter
     {
                
        var sb = new StringBuilder("");
-       
-       if (isSubstractive(arabic)) 
-       {
-           return sb.Append(substractive[arabic]).ToString();
-       }
-       
+              
         
         var reminder = arabic;
         
@@ -23,7 +18,8 @@ public class RomanConverter
        reminder = appendOrderOfMagnitude(sb, reminder, 50);
        reminder = appendOrderOfMagnitude(sb, reminder, 10);
        reminder = appendOrderOfMagnitude(sb, reminder, 5);
-       reminder = appendOrderOfMagnitude(sb, reminder, 1);            
+       reminder = appendUnitsLessThanFive(sb, reminder);
+       //reminder = appendOrderOfMagnitude(sb, reminder, 1);            
             
         /* var tens = Math.DivRem(reminder, 10, out reminder);
         var fives = Math.DivRem(reminder, 5, out reminder); 
@@ -52,6 +48,18 @@ public class RomanConverter
        sb.Append(symbols[orderOfMagnitude], result);     
                     
        return  localReminder;
+    }
+    
+    private static int appendUnitsLessThanFive(StringBuilder sb, int reminder)
+    {
+        if(reminder == 4) 
+        {
+            return sb.Append(substractive[arabic]).ToString();
+            return 0
+        } else
+        {
+            return appendOrderOfMagnitude(sb, reminder, 1)
+        }
     }
     
     
