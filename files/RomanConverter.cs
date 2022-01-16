@@ -16,7 +16,7 @@ public class RomanConverter
     
     public static string ToRoman(int arabic)
     { 
-        if(_reminder >=4000 || _reminder <= 0) 
+        if(arabic >=4000 || arabic <= 0) 
             throw new ArgumentOutOfRangeException("arabic", null, "Algorytm nie obsługuje licbz większych niż 3999 i mniejszych lub równych zero");
                       
        return new RomanConverter(arabic)
