@@ -29,7 +29,7 @@ public class RomanConverter
     
     RomanConverter AppendUnits()
     {
-         if(_reminder == 4 || _reminder == 9) 
+         if(isSubstractive(4,9)) 
         {
             _sb.Append(substractive[_reminder]);
             _reminder = 0;
@@ -59,7 +59,10 @@ public class RomanConverter
        return  localReminder;
     }
     
-    
+    isSubstractive(int firstValue, int secondValue) 
+    {
+        _reminder == firstValue || _reminder == secondValue
+    }
     
   
     Dictionary<int, char> symbols = new Dictionary<int, char>() 
