@@ -33,7 +33,7 @@ public class HikerTest
    [TestCase(534, "DXXXIV")]
    [TestCase(900, "CM")]
    [TestCase(990, "CMXC")]
-    //[TestCase(1000, "M")] 
+   [TestCase(1000, "M")] 
    
     public void should_convert_arabic_to_Roman(int arabic, string roman)
     {
