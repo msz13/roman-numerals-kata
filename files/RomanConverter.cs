@@ -75,17 +75,31 @@ public class RomanConverter
     
     RomanConverter AppendHoundreds()
     {
-        return this;
+        return AppendOrderOfMagnitude(100, 500, 400, 900);
     }
     
-    int appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 
-    {
-       int localReminder; 
-       var result = Math.DivRem(value, orderOfMagnitude, out localReminder);    
+    RomanConverter AppendOrderOfMagnitude(int orderOfMagnitude, int half, int firstSubstractive, int secondSubstractive) 
+    {   
+        var result = Math.DivRem(_reminder, orderOfMagnitude, out _reminder);    
+         
+      /*   if(isSubstractive(result, 9,4)) 
+        {
+            _sb.Append(substractive[result * 10]);          
+             return this;
+        } */      
       
-       sb.Append(symbols[orderOfMagnitude], result);     
-                    
-       return  localReminder;
+        
+    //  if(result >= 5) 
+    //   {
+    //    _sb.Append(symbols[50]);
+    //    _sb.Append(symbols[10], result - 5); 
+    //   } else
+    //   {
+        _sb.Append(symbols[orderOfMagnitude], result);    
+    //   }       
+         
+                             
+       return this;
     }
     
     bool isSubstractive(int number, int firstValue, int secondValue) 
