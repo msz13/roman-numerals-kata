@@ -86,7 +86,7 @@ public class RomanConverter
         {
             _sb.Append(substractive[result * orderOfMagnitude]);          
              return this;
-        } */      
+        }      
       
         
      if(result >= 5) 
