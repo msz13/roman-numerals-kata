@@ -61,10 +61,10 @@ public class RomanConverter
       var result = Math.DivRem(_reminder, 10, out _reminder);   
       //var result = Math.DivRem(_reminder, 50, out _reminder);  
         
-      if(result >= 50) 
+      if(result >= 5) 
        {
         _sb.Append(symbols[50]);
-        _sb.Append(symbols[10], result - 50); 
+        _sb.Append(symbols[10], result - 5); 
        } else
        {
         _sb.Append(symbols[10], result);     

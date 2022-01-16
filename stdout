@@ -13,28 +13,14 @@ Errors, Failures and Warnings
   Expected: "XLIV"
   But was:  "XXXXIV"
   ------------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <dcede9a49ebe4bdd9c268e83e3e8d821>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <431494a631d74103a81c938894c5b04c>:0 
 
-2) Failed : HikerTest.should_convert_arabic_to_Roman(50,"L")
-  Expected string length 1 but was 5. Strings differ at index 0.
-  Expected: "L"
-  But was:  "XXXXX"
-  -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <dcede9a49ebe4bdd9c268e83e3e8d821>:0 
-
-3) Failed : HikerTest.should_convert_arabic_to_Roman(68,"LXVIII")
-  Expected string length 6 but was 10. Strings differ at index 0.
-  Expected: "LXVIII"
-  But was:  "XXXXXXVIII"
-  -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <dcede9a49ebe4bdd9c268e83e3e8d821>:0 
-
-4) Failed : HikerTest.should_convert_arabic_to_Roman(91,"XCI")
-  Expected string length 3 but was 10. Strings differ at index 1.
+2) Failed : HikerTest.should_convert_arabic_to_Roman(91,"XCI")
+  Expected string length 3 but was 6. Strings differ at index 0.
   Expected: "XCI"
-  But was:  "XXXXXXXXXI"
-  ------------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <dcede9a49ebe4bdd9c268e83e3e8d821>:0 
+  But was:  "LXXXXI"
+  -----------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <431494a631d74103a81c938894c5b04c>:0 
 
 Run Settings
     DisposeRunners: True
@@ -46,10 +32,10 @@ Run Settings
 
 Test Run Summary
   Overall result: Failed
-  Test Count: 21, Passed: 17, Failed: 4, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 4, Errors: 0, Invalid: 0
-  Start time: 2022-01-16 17:40:09Z
-    End time: 2022-01-16 17:40:10Z
-    Duration: 1.064 seconds
+  Test Count: 21, Passed: 19, Failed: 2, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 2, Errors: 0, Invalid: 0
+  Start time: 2022-01-16 17:40:46Z
+    End time: 2022-01-16 17:40:47Z
+    Duration: 1.007 seconds
 
 Results (nunit3) saved as TestResult.xml
