@@ -10,7 +10,7 @@ public class RomanConverter
     {
                             
               
-       return new RomanNumeralsBuilder(arabic).GetResult();
+       return new RomanNumeralsBuilder(arabic).AppendUnits().GetResult();
         
     }  
     
