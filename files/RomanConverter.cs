@@ -29,7 +29,7 @@ public class RomanConverter
     
     public RomanConverter AppendUnits()
     {
-         if(_reminder == 4) 
+         if(_reminder == 4 || _reminder == 9) 
         {
             _sb.Append(substractive[_reminder]);
             _reminder = 0;
