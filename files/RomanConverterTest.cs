@@ -40,6 +40,7 @@ public class HikerTest
         Assert.AreEqual(roman, RomanConverter.ToRoman(arabic));
     }
     
+    [Test]
      public void should_throw_when_arabic_is_greater_than_3999()
     {
         // a simple example to start you off
