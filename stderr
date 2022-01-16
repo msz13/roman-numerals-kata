@@ -1,3 +1,0 @@
-RomanConverterTest.cs(49,23): error CS1502: The best overloaded method match for `NUnit.Framework.StringAssert.Contains(string, string)' has some invalid arguments
-/nunit/lib/net45/nunit.framework.dll (Location of the symbol related to previous error)
-RomanConverterTest.cs(49,47): error CS1503: Argument `#2' cannot convert `NUnit.Framework.Constraints.EqualConstraint' expression to type `string'

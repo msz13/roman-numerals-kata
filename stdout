@@ -1,1 +1,33 @@
-Compilation failed: 2 error(s), 0 warnings
+Runtime Environment
+   OS Version: Linux 5.4.109.0 
+  CLR Version: 4.0.30319.42000
+
+Test Files
+    ./RunTests.dll
+
+
+Errors, Failures and Warnings
+
+1) Failed : HikerTest.should_throw_when_arabic_is_greater_than_3999
+  Expected: String containing "Algorytm nie obs?uguje licz wi?kszych ni? 3999
+Parameter name: arabic"
+  But was:  "Algorytm nie obs?uguje licz wi?kszych ni? 3999"
+  at HikerTest.should_throw_when_arabic_is_greater_than_3999 () [0x00000] in <0da94b11a3014ba3a49aefa555083798>:0 
+
+Run Settings
+    DisposeRunners: True
+    WorkDirectory: /sandbox
+    ImageRuntimeVersion: 4.0.30319
+    ImageRequiresX86: False
+    ImageRequiresDefaultAppDomainAssemblyResolver: False
+    NumberOfTestWorkers: 2
+
+Test Run Summary
+  Overall result: Failed
+  Test Count: 30, Passed: 29, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
+  Start time: 2022-01-16 19:10:20Z
+    End time: 2022-01-16 19:10:21Z
+    Duration: 1.042 seconds
+
+Results (nunit3) saved as TestResult.xml
