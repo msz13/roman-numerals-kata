@@ -40,13 +40,18 @@ public class HikerTest
         Assert.AreEqual(roman, RomanConverter.ToRoman(arabic));
     }
     
-    [Test]
-     public void should_throw_when_arabic_is_greater_than_3999()
+    [TestCase(-1)]
+    [TestCase(0)]
+    [TestCase(4000)]
+    [TestCase(4001)]
+     public void should_throw_when_arabic_is_greater_than_3999(int arabic)
     {
         // a simple example to start you off
         var ex = Assert.Throws<ArgumentOutOfRangeException>(()=> RomanConverter.ToRoman(4000));
         
-         StringAssert.Contains("Algorytm nie obsługuje licz większych niż 3999", ex.Message);
+         StringAssert.Contains("Algorytm nie obsługuje licbz większych niż 3999 i mniejszych lub równycch zero", ex.Message);
     }
+    
+   
 
 }
