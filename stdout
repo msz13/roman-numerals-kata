@@ -6,15 +6,6 @@ Test Files
     ./RunTests.dll
 
 
-Errors, Failures and Warnings
-
-1) Failed : HikerTest.should_convert_arabic_to_Roman(50,"L")
-  Expected string length 1 but was 6. Strings differ at index 1.
-  Expected: "L"
-  But was:  "LXXXXX"
-  ------------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <c5d949d9ae4242c4bcc8ef08e689db61>:0 
-
 Run Settings
     DisposeRunners: True
     WorkDirectory: /sandbox
@@ -24,11 +15,10 @@ Run Settings
     NumberOfTestWorkers: 2
 
 Test Run Summary
-  Overall result: Failed
-  Test Count: 11, Passed: 10, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2022-01-16 17:10:01Z
-    End time: 2022-01-16 17:10:03Z
-    Duration: 1.008 seconds
+  Overall result: Passed
+  Test Count: 11, Passed: 11, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0
+  Start time: 2022-01-16 17:11:43Z
+    End time: 2022-01-16 17:11:44Z
+    Duration: 0.963 seconds
 
 Results (nunit3) saved as TestResult.xml
