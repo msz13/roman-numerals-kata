@@ -1,1 +1,1 @@
-RomanConverter.cs(57,54): error CS0029: Cannot implicitly convert type `string' to `int'
+RomanConverter.cs(57,23): error CS0029: Cannot implicitly convert type `System.Text.StringBuilder' to `int'
