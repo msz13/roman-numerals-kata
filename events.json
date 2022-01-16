@@ -3771,5 +3771,21 @@
       10,
       659401
     ]
+  },
+  {
+    "duration": 3.03767,
+    "colour": "green",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 236,
+    "time": [
+      2022,
+      1,
+      16,
+      18,
+      40,
+      15,
+      242240
+    ]
   }
 ]
