@@ -6,29 +6,6 @@ Test Files
     ./RunTests.dll
 
 
-Errors, Failures and Warnings
-
-1) Failed : HikerTest.should_convert_arabic_to_Roman(5,"V")
-  Expected string length 1 but was 0. Strings differ at index 0.
-  Expected: "V"
-  But was:  <string.Empty>
-  -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <3469ee6bc27942d89b716739f1a8cc96>:0 
-
-2) Failed : HikerTest.should_convert_arabic_to_Roman(6,"VI")
-  Expected string length 2 but was 1. Strings differ at index 0.
-  Expected: "VI"
-  But was:  "I"
-  -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <3469ee6bc27942d89b716739f1a8cc96>:0 
-
-3) Failed : HikerTest.should_convert_arabic_to_Roman(8,"VIII")
-  Expected string length 4 but was 3. Strings differ at index 0.
-  Expected: "VIII"
-  But was:  "III"
-  -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <3469ee6bc27942d89b716739f1a8cc96>:0 
-
 Run Settings
     DisposeRunners: True
     WorkDirectory: /sandbox
@@ -38,11 +15,10 @@ Run Settings
     NumberOfTestWorkers: 2
 
 Test Run Summary
-  Overall result: Failed
-  Test Count: 8, Passed: 5, Failed: 3, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 3, Errors: 0, Invalid: 0
-  Start time: 2022-01-16 15:18:20Z
-    End time: 2022-01-16 15:18:21Z
-    Duration: 0.936 seconds
+  Overall result: Passed
+  Test Count: 8, Passed: 8, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0
+  Start time: 2022-01-16 15:19:57Z
+    End time: 2022-01-16 15:19:58Z
+    Duration: 0.928 seconds
 
 Results (nunit3) saved as TestResult.xml
