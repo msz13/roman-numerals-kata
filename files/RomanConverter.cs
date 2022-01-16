@@ -73,7 +73,7 @@ public class RomanConverter
        return this;
     }
     
-    int AppendHoundreds()
+    RomanConverter AppendHoundreds()
     {
         return this;
     }
