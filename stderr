@@ -1,2 +1,1 @@
-RomanConverter.cs(4,1): error CS0138: A `using' directive can only be applied to namespaces but `RomanConverter' denotes a type. Consider using a `using static' instead
-RomanConverter.cs(7,14): (Location of the symbol related to previous error)
+RomanNumeralsBuilder.cs(7,9): warning CS0414: The private field `RomanNumeralsBuilder._reminder' is assigned but its value is never used
