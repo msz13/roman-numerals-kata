@@ -18,6 +18,7 @@ public class RomanConverter
     {                            
               
        return new RomanConverter(arabic)
+           .AppendThousands()
            .AppendHoundreds()
            .AppendTens()
            .AppendUnits()
