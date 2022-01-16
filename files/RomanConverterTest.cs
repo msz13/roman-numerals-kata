@@ -44,7 +44,7 @@ public class HikerTest
         // a simple example to start you off
         var ex = Assert.Throws<ArgumentOutOfRangeException>(()=> RomanConverter.ToRoman(4000));
         
-         Assert.That(ex.Message, "Algorytm nie obsługuje licz większych niż 3999")
+         Assert.That(ex.Message, "Algorytm nie obsługuje licz większych niż 3999");
     }
 }
 }
