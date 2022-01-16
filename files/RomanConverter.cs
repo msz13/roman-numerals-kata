@@ -37,14 +37,14 @@ public class RomanConverter
         } 
         
        int localReminder; 
-       var result = Math.DivRem(value, 5, out localReminder);  
+       var result = Math.DivRem(_reminder, 5, out localReminder);  
         
        if(result == 5) 
        {
-        sb.Append(symbols[5]);
+        _sb.Append(symbols[5]);
        }
         
-       sb.Append(symbols[1], localReminder);          
+       _sb.Append(symbols[1], localReminder);          
                        
        return this;
     }
