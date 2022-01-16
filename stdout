@@ -17,8 +17,8 @@ Run Settings
 Test Run Summary
   Overall result: Passed
   Test Count: 34, Passed: 34, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0
-  Start time: 2022-01-16 19:23:20Z
-    End time: 2022-01-16 19:23:21Z
-    Duration: 0.993 seconds
+  Start time: 2022-01-16 19:24:32Z
+    End time: 2022-01-16 19:24:33Z
+    Duration: 1.083 seconds
 
 Results (nunit3) saved as TestResult.xml

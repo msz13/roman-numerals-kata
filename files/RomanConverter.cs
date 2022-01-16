@@ -64,9 +64,8 @@ public class RomanConverter
         {
             _sb.Append(substractive[result * orderOfMagnitude]);          
              return this;
-        }      
-      
-        
+        }    
+              
        if(result >= 5) 
        {
         _sb.Append(symbols[5*orderOfMagnitude]);
@@ -74,9 +73,8 @@ public class RomanConverter
        } else
        {
         _sb.Append(symbols[orderOfMagnitude], result);    
-       }       
-         
-                             
+       }      
+                                      
        return this;
     }
     
