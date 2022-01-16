@@ -1,4 +1,4 @@
-private class RomanNumeralsBuilder
+internal class RomanNumeralsBuilder
 {
     StringBuilder _sb;
     int _reminder;

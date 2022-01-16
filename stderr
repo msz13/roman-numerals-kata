@@ -1,1 +1,1 @@
-RomanNumeralsBuilder.cs(1,15): error CS1527: Namespace elements cannot be explicitly declared as private, protected, protected internal, or private protected
+RomanNumeralsBuilder.cs(3,5): error CS0246: The type or namespace name `StringBuilder' could not be found. Are you missing `System.Text' using directive?
