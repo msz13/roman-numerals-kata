@@ -82,7 +82,7 @@ public class RomanConverter
   
     Dictionary<int, char> symbols = new Dictionary<int, char>() 
     {
-        {5000, 'M'},
+        {1000, 'M'},
         {500, 'D'},
         {100, 'C'},
         {50, 'L'},
