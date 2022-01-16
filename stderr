@@ -1,2 +1,3 @@
-RomanConverter.cs(15,19): error CS0246: The type or namespace name `RomanNumeralBuilder' could not be found. Are you missing an assembly reference?
+RomanConverter.cs(15,48): error CS1061: Type `RomanConverter.RomanNumeralsBuilder' does not contain a definition for `GetResult' and no extension method `GetResult' of type `RomanConverter.RomanNumeralsBuilder' could be found. Are you missing an assembly reference?
+RomanNumeralsBuilder.cs(5,14): (Location of the symbol related to previous error)
 RomanConverterTest.cs(30,47): error CS0234: The type or namespace name `ToRoman' does not exist in the namespace `RomanConverter'. Are you missing an assembly reference?
