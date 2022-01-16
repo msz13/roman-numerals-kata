@@ -66,8 +66,8 @@ public class RomanConverter
         _sb.Append(symbols[50]);
        } 
         
-       var result = Math.DivRem(_reminder, 10, out localReminder);  
-       _sb.Append(symbols[10], localReminder);
+      result = Math.DivRem(_reminder, 10, out localReminder);  
+       _sb.Append(symbols[10], result);
          
        _reminder = localReminder;
                        
