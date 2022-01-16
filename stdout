@@ -13,7 +13,7 @@ Errors, Failures and Warnings
   Expected: "M"
   But was:  "DCCCCC"
   -----------^
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <9d809444a2704e4ca084c1c3140e8dc5>:0 
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <68c9833759a5479f90dc2ecbbb85b147>:0 
 
 Run Settings
     DisposeRunners: True
@@ -27,8 +27,8 @@ Test Run Summary
   Overall result: Failed
   Test Count: 31, Passed: 30, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
     Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2022-01-16 18:37:00Z
-    End time: 2022-01-16 18:37:01Z
-    Duration: 1.039 seconds
+  Start time: 2022-01-16 18:37:49Z
+    End time: 2022-01-16 18:37:51Z
+    Duration: 1.140 seconds
 
 Results (nunit3) saved as TestResult.xml
