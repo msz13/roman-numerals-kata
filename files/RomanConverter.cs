@@ -51,12 +51,12 @@ public class RomanConverter
     
      RomanConverter AppendTens()
     {
-      /*   if(isSubstractive(90,40)) 
+        if(isSubstractive(90,40)) 
         {
             _sb.Append(substractive[_reminder]);
             _reminder = 0;
              return this;
-        } */
+        } 
         
        
       var result = Math.DivRem(_reminder, 50, out _reminder);  
@@ -100,7 +100,9 @@ public class RomanConverter
     Dictionary<int, string> substractive = new Dictionary<int, string>() 
     {
         {4, "IV"},
-        {9, "IX"}
+        {9, "IX"},
+        {40, "XL"}
+        {90, "XC"}
     };   
        
     
