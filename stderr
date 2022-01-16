@@ -1,0 +1,3 @@
+RomanConverter.cs(16,7): error CS1525: Unexpected symbol `reminder'
+RomanConverter.cs(16,55): error CS1001: Unexpected symbol `50', expecting identifier
+RomanNumeralsBuilder.cs(1,15): error CS1527: Namespace elements cannot be explicitly declared as private, protected, protected internal, or private protected

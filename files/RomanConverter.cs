@@ -7,12 +7,10 @@ public class RomanConverter
         
     public static string ToRoman(int arabic)
     {
-               
-       var sb = new StringBuilder("");
-              
+                            
+                
         
-        var reminder = arabic;
-        
+       var builder = new RomanNumeralBuilder(arabic).GetResult()
         
        
        reminder = appendOrderOfMagnitude(sb, reminder, 50);
@@ -37,7 +35,7 @@ public class RomanConverter
         sb.Append('I', reminder);    
         } */
         
-        return sb.ToString();
+       // return sb.ToString();
     }  
     
     private static int appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 
@@ -63,11 +61,7 @@ public class RomanConverter
     }
     
     
-    private static bool isSubstractive(int arabic) 
-    {
-        return (arabic == 4 || arabic == 9) ? true : false;
-    }
-    
+  
     private static Dictionary<int, char> symbols = new Dictionary<int, char>() 
     {
         {50, 'L'},
