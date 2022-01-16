@@ -5,14 +5,6 @@ using System;
 
 public class RomanConverter
 {
-    StringBuilder _sb;
-    int _reminder;
-    
-    private RomanConverter(int arabic)
-    {
-        _reminder = arabic;
-        _sb = new StringBuilder("");
-    }
     
     public static string ToRoman(int arabic)
     { 
@@ -26,6 +18,18 @@ public class RomanConverter
            .AppendUnits()
            .GetResult();        
     }  
+    
+    
+    StringBuilder _sb;
+    int _reminder;
+    
+    private RomanConverter(int arabic)
+    {
+        _reminder = arabic;
+        _sb = new StringBuilder("");
+    }
+    
+    
     
    public string GetResult()
     {
