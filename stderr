@@ -1,0 +1,2 @@
+RomanConverter.cs(19,12): error CS0120: An object reference is required to access non-static member `RomanConverter._reminder'
+RomanConverter.cs(19,32): error CS0120: An object reference is required to access non-static member `RomanConverter._reminder'

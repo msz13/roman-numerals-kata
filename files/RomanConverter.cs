@@ -15,15 +15,16 @@ public class RomanConverter
     }
     
     public static string ToRoman(int arabic)
-    {                            
-              
+    { 
+        if(_reminder >=4000 || _reminder <= 0) 
+            throw new ArgumentOutOfRangeException("arabic", null, "Algorytm nie obsługuje licbz większych niż 3999 i mniejszych lub równych zero");
+                      
        return new RomanConverter(arabic)
            .AppendThousands()
            .AppendHoundreds()
            .AppendTens()
            .AppendUnits()
-           .GetResult();
-        
+           .GetResult();        
     }  
     
    public string GetResult()
@@ -48,10 +49,7 @@ public class RomanConverter
     }
       RomanConverter AppendThousands()
     {
-        if(_reminder >=4000 || _reminder <= 0) 
-            throw new ArgumentOutOfRangeException("arabic", null, "Algorytm nie obsługuje licbz większych niż 3999 i mniejszych lub równych zero");
-            
-          return AppendOrderOfMagnitude(1000);
+        return AppendOrderOfMagnitude(1000);
     }
     
     RomanConverter AppendOrderOfMagnitude(int orderOfMagnitude) 
