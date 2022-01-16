@@ -1,1 +1,55 @@
-Compilation failed: 3 error(s), 0 warnings
+Runtime Environment
+   OS Version: Linux 5.4.109.0 
+  CLR Version: 4.0.30319.42000
+
+Test Files
+    ./RunTests.dll
+
+
+Errors, Failures and Warnings
+
+1) Failed : HikerTest.should_convert_arabic_to_Roman(44,"XLIV")
+  Expected string length 4 but was 6. Strings differ at index 1.
+  Expected: "XLIV"
+  But was:  "XXXXIV"
+  ------------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <dcede9a49ebe4bdd9c268e83e3e8d821>:0 
+
+2) Failed : HikerTest.should_convert_arabic_to_Roman(50,"L")
+  Expected string length 1 but was 5. Strings differ at index 0.
+  Expected: "L"
+  But was:  "XXXXX"
+  -----------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <dcede9a49ebe4bdd9c268e83e3e8d821>:0 
+
+3) Failed : HikerTest.should_convert_arabic_to_Roman(68,"LXVIII")
+  Expected string length 6 but was 10. Strings differ at index 0.
+  Expected: "LXVIII"
+  But was:  "XXXXXXVIII"
+  -----------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <dcede9a49ebe4bdd9c268e83e3e8d821>:0 
+
+4) Failed : HikerTest.should_convert_arabic_to_Roman(91,"XCI")
+  Expected string length 3 but was 10. Strings differ at index 1.
+  Expected: "XCI"
+  But was:  "XXXXXXXXXI"
+  ------------^
+  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <dcede9a49ebe4bdd9c268e83e3e8d821>:0 
+
+Run Settings
+    DisposeRunners: True
+    WorkDirectory: /sandbox
+    ImageRuntimeVersion: 4.0.30319
+    ImageRequiresX86: False
+    ImageRequiresDefaultAppDomainAssemblyResolver: False
+    NumberOfTestWorkers: 2
+
+Test Run Summary
+  Overall result: Failed
+  Test Count: 21, Passed: 17, Failed: 4, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 4, Errors: 0, Invalid: 0
+  Start time: 2022-01-16 17:40:09Z
+    End time: 2022-01-16 17:40:10Z
+    Duration: 1.064 seconds
+
+Results (nunit3) saved as TestResult.xml
