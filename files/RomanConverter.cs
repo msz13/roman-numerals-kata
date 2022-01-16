@@ -9,7 +9,7 @@ public class RomanConverter
     {
                             
               
-       return new this.RomanNumeralBuilder(arabic).GetResult();
+       return new RomanNumeralBuilder(arabic).GetResult();
         
     }  
     
@@ -52,17 +52,7 @@ public class RomanConverter
     };
     
     
-    private class RomanNumeralsBuilder
-    {
-        StringBuilder _sb;
-        int _reminder;
-        
-        public RomanNumeralsBuilder(int arabic)
-        {
-            _reminder = arabic;
-            _sb = new StringBuilder("");
-        }
-    }
+    
     
    
 }
