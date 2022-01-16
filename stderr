@@ -1,2 +1,2 @@
-RomanConverter.cs(13,48): error CS1061: Type `RomanNumeralsBuilder' does not contain a definition for `AppendUnits' and no extension method `AppendUnits' of type `RomanNumeralsBuilder' could be found. Are you missing an assembly reference?
-RomanNumeralsBuilder.cs(4,14): (Location of the symbol related to previous error)
+RomanConverter.cs(30,12): error CS1520: Class, struct, or interface method must have a return type
+RomanNumeralsBuilder.cs(19,12): error CS1520: Class, struct, or interface method must have a return type

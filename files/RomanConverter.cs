@@ -5,16 +5,43 @@ using System;
 
 public class RomanConverter
 {
-        
+    StringBuilder _sb;
+    int _reminder;
+    
+    public RomanConverter(int arabic)
+    {
+        _reminder = arabic;
+        _sb = new StringBuilder("");
+    }
+    
     public static string ToRoman(int arabic)
     {
                             
               
-       return new RomanNumeralsBuilder(arabic).AppendUnits().GetResult();
+       return new RomanConverter(arabic).AppendUnits().GetResult();
         
     }  
     
-    private static int appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 
+   public string GetResult()
+    {
+        return _sb.ToString();
+    }
+    
+    public AppendUnits()
+    {
+         if(_reminder == 4) 
+        {
+            sb.Append(substractive[reminder]);
+            return 0;
+        } else
+        {
+            _reminder = appendOrderOfMagnitude(sb, reminder, 1);
+        }
+        
+        return this;
+    }
+    
+    private int appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 
     {
        int localReminder; 
        var result = Math.DivRem(value, orderOfMagnitude, out localReminder);    
@@ -24,17 +51,7 @@ public class RomanConverter
        return  localReminder;
     }
     
-    private static int appendUnitsLessThanFive(StringBuilder sb, int reminder)
-    {
-        if(reminder == 4) 
-        {
-            sb.Append(substractive[reminder]);
-            return 0;
-        } else
-        {
-            return appendOrderOfMagnitude(sb, reminder, 1);
-        }
-    }
+   
     
     
   

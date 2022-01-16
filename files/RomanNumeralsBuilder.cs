@@ -15,4 +15,28 @@ public class RomanNumeralsBuilder
     {
         return _sb.ToString();
     }
+    
+    public AppendUnits()
+    {
+         if(_reminder == 4) 
+        {
+            sb.Append(substractive[reminder]);
+            return 0;
+        } else
+        {
+            return appendOrderOfMagnitude(sb, reminder, 1);
+        }
+        
+        return this;
+    }
+    
+    private int appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 
+    {
+       int localReminder; 
+       var result = Math.DivRem(value, orderOfMagnitude, out localReminder);    
+      
+       sb.Append(symbols[orderOfMagnitude], result);     
+                    
+       return  localReminder;
+    }
 }
