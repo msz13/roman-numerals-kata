@@ -55,7 +55,7 @@ public class RomanConverter
          
          if(isSubstractive(9,4)) 
         {
-            _sb.Append(substractive[_reminder]);          
+            _sb.Append(substractive[result * 10]);          
              return this;
         }       
       
