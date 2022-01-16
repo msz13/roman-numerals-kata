@@ -78,7 +78,7 @@ public class RomanConverter
         return AppendOrderOfMagnitude(100);
     }
     
-    RomanConverter AppendOrderOfMagnitude(int orderOfMagnitude, int firstSubstractive, int secondSubstractive) 
+    RomanConverter AppendOrderOfMagnitude(int orderOfMagnitude) 
     {   
         var result = Math.DivRem(_reminder, orderOfMagnitude, out _reminder);    
          

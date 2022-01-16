@@ -1,2 +1,0 @@
-RomanConverter.cs(78,16): error CS1501: No overload for method `AppendOrderOfMagnitude' takes `1' arguments
-RomanConverter.cs(81,20): (Location of the symbol related to previous error)
