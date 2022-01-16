@@ -49,7 +49,7 @@ public class HikerTest
         // a simple example to start you off
         var ex = Assert.Throws<ArgumentOutOfRangeException>(()=> RomanConverter.ToRoman(4000));
         
-         StringAssert.Contains("Algorytm nie obsługuje licbz większych niż 3999 i mniejszych lub równycch zero", ex.Message);
+         StringAssert.Contains("Algorytm nie obsługuje licbz większych niż 3999 i mniejszych lub równych zero", ex.Message);
     }
     
    

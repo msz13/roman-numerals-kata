@@ -48,8 +48,8 @@ public class RomanConverter
     }
       RomanConverter AppendThousands()
     {
-        if(_reminder >=4000) 
-            throw new ArgumentOutOfRangeException("arabic", null, "Algorytm nie obsługuje licz większych niż 3999");
+        if(_reminder >=4000 || _reminder =< 0) 
+            throw new ArgumentOutOfRangeException("arabic", null, "Algorytm nie obsługuje licbz większych niż 3999 i mniejszych lub równych zero");
             
           return AppendOrderOfMagnitude(1000);
     }

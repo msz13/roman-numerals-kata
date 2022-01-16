@@ -4075,5 +4075,21 @@
       38,
       876927
     ]
+  },
+  {
+    "duration": 0.947829,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 255,
+    "time": [
+      2022,
+      1,
+      16,
+      19,
+      17,
+      45,
+      474742
+    ]
   }
 ]
