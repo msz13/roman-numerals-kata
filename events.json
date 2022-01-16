@@ -2203,5 +2203,21 @@
       5,
       919366
     ]
+  },
+  {
+    "duration": 0.940651,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 138,
+    "time": [
+      2022,
+      1,
+      16,
+      12,
+      58,
+      28,
+      783785
+    ]
   }
 ]
