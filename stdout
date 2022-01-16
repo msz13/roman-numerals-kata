@@ -34,8 +34,8 @@ Test Run Summary
   Overall result: Failed
   Test Count: 11, Passed: 9, Failed: 2, Warnings: 0, Inconclusive: 0, Skipped: 0
     Failed Tests - Failures: 2, Errors: 0, Invalid: 0
-  Start time: 2022-01-16 15:37:45Z
-    End time: 2022-01-16 15:37:46Z
-    Duration: 0.995 seconds
+  Start time: 2022-01-16 17:02:46Z
+    End time: 2022-01-16 17:02:47Z
+    Duration: 1.055 seconds
 
 Results (nunit3) saved as TestResult.xml
