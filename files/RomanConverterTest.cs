@@ -46,5 +46,5 @@ public class HikerTest
         
          Assert.That(ex.Message, "Algorytm nie obsługuje licz większych niż 3999");
     }
-}
+
 }

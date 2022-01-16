@@ -1,1 +1,4 @@
-RomanConverterTest.cs(50,0): error CS1525: Unexpected symbol `}'
+RomanConverterTest.cs(45,32): error CS0246: The type or namespace name `ArgumentOutOfRangeException' could not be found. Are you missing `System' using directive?
+RomanConverterTest.cs(47,17): error CS1502: The best overloaded method match for `NUnit.Framework.Assert.That<<error>>(<error>, NUnit.Framework.Constraints.IResolveConstraint)' has some invalid arguments
+/nunit/lib/net45/nunit.framework.dll (Location of the symbol related to previous error)
+RomanConverterTest.cs(47,34): error CS1503: Argument `#2' cannot convert `string' expression to type `NUnit.Framework.Constraints.IResolveConstraint'
