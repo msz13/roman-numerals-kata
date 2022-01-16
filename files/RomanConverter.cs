@@ -83,9 +83,9 @@ public class RomanConverter
        return  localReminder;
     }
     
-    bool isSubstractive(result, int firstValue, int secondValue) 
+    bool isSubstractive(int number, int firstValue, int secondValue) 
     {
-        return result == firstValue || result == secondValue;
+        return number == firstValue || number == secondValue;
     }
     
   
