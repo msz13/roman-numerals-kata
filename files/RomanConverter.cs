@@ -27,7 +27,7 @@ public class RomanConverter
         return _sb.ToString();
     }
     
-    public AppendUnits()
+    public RomanConverter AppendUnits()
     {
          if(_reminder == 4) 
         {

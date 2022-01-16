@@ -1,2 +1,4 @@
-RomanConverter.cs(30,12): error CS1520: Class, struct, or interface method must have a return type
-RomanNumeralsBuilder.cs(19,12): error CS1520: Class, struct, or interface method must have a return type
+RomanConverter.cs(34,13): error CS0103: The name `sb' does not exist in the current context
+RomanConverter.cs(35,20): error CS0029: Cannot implicitly convert type `int' to `RomanConverter'
+RomanConverter.cs(38,48): error CS0103: The name `sb' does not exist in the current context
+RomanConverter.cs(38,52): error CS0103: The name `reminder' does not exist in the current context
