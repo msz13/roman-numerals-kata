@@ -75,7 +75,18 @@ public class RomanConverter
         {4, "IV"},
         {9, "IX"}
     };
-           
+    
+    
+    private class RomanNumeralsBuilder
+{
+    StringBuilder _sb;
+    int _reminder;
+    public RomanNumeralsBuilder(int arabic)
+    {
+        _reminder = arabic;
+        _sb = new StringBuilder("");
+    }
+}
     
    
 }
