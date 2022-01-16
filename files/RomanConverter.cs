@@ -33,13 +33,20 @@ public class RomanConverter
         {
             _sb.Append(substractive[_reminder]);
             _reminder = 0;
-        } else
-        {
-            _reminder = appendOrderOfMagnitude(_sb, _reminder, 5);
-            _reminder = appendOrderOfMagnitude(_sb, _reminder, 1);
-        }
+             return this;
+        } 
         
-        return this;
+       int localReminder; 
+       var result = Math.DivRem(value, 5, out localReminder);  
+        
+       if(result == 5) 
+       {
+        sb.Append(symbols[5]);
+       }
+        
+       sb.Append(symbols[1], localReminder);          
+                       
+       return this;
     }
     
     private int appendOrderOfMagnitude(StringBuilder sb, int value, int orderOfMagnitude) 

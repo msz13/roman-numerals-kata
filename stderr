@@ -1,0 +1,3 @@
+RomanConverter.cs(40,33): error CS0103: The name `value' does not exist in the current context
+RomanConverter.cs(44,9): error CS0103: The name `sb' does not exist in the current context
+RomanConverter.cs(47,8): error CS0103: The name `sb' does not exist in the current context
