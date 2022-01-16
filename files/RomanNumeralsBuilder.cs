@@ -1,3 +1,5 @@
+using System.Text;
+
 internal class RomanNumeralsBuilder
 {
     StringBuilder _sb;
