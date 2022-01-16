@@ -51,15 +51,14 @@ public class RomanConverter
     
      RomanConverter AppendTens()
     {
-        if(isSubstractive(90,40)) 
+        var result = Math.DivRem(_reminder, 10, out _reminder);    
+         
+         if(isSubstractive(9,4)) 
         {
-            _sb.Append(substractive[_reminder]);
-            _reminder = 0;
+            _sb.Append(substractive[_reminder]);          
              return this;
-        } 
-        
-      var result = Math.DivRem(_reminder, 10, out _reminder);   
-      //var result = Math.DivRem(_reminder, 50, out _reminder);  
+        }       
+      
         
       if(result >= 5) 
        {
