@@ -75,10 +75,10 @@ public class RomanConverter
     
     RomanConverter AppendHoundreds()
     {
-        return AppendOrderOfMagnitude(100, 500, 400, 900);
+        return AppendOrderOfMagnitude(100, 400, 900);
     }
     
-    RomanConverter AppendOrderOfMagnitude(int orderOfMagnitude, int half, int firstSubstractive, int secondSubstractive) 
+    RomanConverter AppendOrderOfMagnitude(int orderOfMagnitude, int firstSubstractive, int secondSubstractive) 
     {   
         var result = Math.DivRem(_reminder, orderOfMagnitude, out _reminder);    
          
@@ -89,14 +89,14 @@ public class RomanConverter
         } */      
       
         
-    //  if(result >= 5) 
-    //   {
-    //    _sb.Append(symbols[50]);
-    //    _sb.Append(symbols[10], result - 5); 
-    //   } else
-    //   {
+     if(result >= 5) 
+       {
+        _sb.Append(symbols[5*orderOfMagnitude]);
+        _sb.Append(symbols[orderOfMagnitude], result - 5); 
+       } else
+       {
         _sb.Append(symbols[orderOfMagnitude], result);    
-    //   }       
+       }       
          
                              
        return this;
