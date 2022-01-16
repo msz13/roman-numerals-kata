@@ -61,7 +61,7 @@ public class RomanConverter
     
     bool isSubstractive(int firstValue, int secondValue) 
     {
-        _reminder == firstValue || _reminder == secondValue;
+        return _reminder == firstValue || _reminder == secondValue;
     }
     
   
