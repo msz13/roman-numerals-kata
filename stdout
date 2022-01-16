@@ -6,18 +6,6 @@ Test Files
     ./RunTests.dll
 
 
-Errors, Failures and Warnings
-
-1) Error : HikerTest.should_convert_arabic_to_Roman(500,"D")
-System.Collections.Generic.KeyNotFoundException : The given key '500' was not present in the dictionary.
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
-  at RomanConverter.AppendOrderOfMagnitude (System.Int32 orderOfMagnitude, System.Int32 firstSubstractive, System.Int32 secondSubstractive) [0x0001a] in <37316fd1dd5143198fa25fe7a22950fb>:0 
-  at RomanConverter.AppendHoundreds () [0x00000] in <37316fd1dd5143198fa25fe7a22950fb>:0 
-  at RomanConverter.ToRoman (System.Int32 arabic) [0x00006] in <37316fd1dd5143198fa25fe7a22950fb>:0 
-  at HikerTest.should_convert_arabic_to_Roman (System.Int32 arabic, System.String roman) [0x00000] in <37316fd1dd5143198fa25fe7a22950fb>:0 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
-
 Run Settings
     DisposeRunners: True
     WorkDirectory: /sandbox
@@ -27,11 +15,10 @@ Run Settings
     NumberOfTestWorkers: 2
 
 Test Run Summary
-  Overall result: Failed
-  Test Count: 23, Passed: 22, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 0, Errors: 1, Invalid: 0
-  Start time: 2022-01-16 18:18:13Z
-    End time: 2022-01-16 18:18:14Z
-    Duration: 1.044 seconds
+  Overall result: Passed
+  Test Count: 23, Passed: 23, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0
+  Start time: 2022-01-16 18:18:40Z
+    End time: 2022-01-16 18:18:41Z
+    Duration: 1.010 seconds
 
 Results (nunit3) saved as TestResult.xml
