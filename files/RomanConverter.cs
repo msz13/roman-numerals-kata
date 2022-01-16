@@ -75,14 +75,14 @@ public class RomanConverter
     
     RomanConverter AppendHoundreds()
     {
-        return AppendOrderOfMagnitude(100, 4, 9);
+        return AppendOrderOfMagnitude(100);
     }
     
     RomanConverter AppendOrderOfMagnitude(int orderOfMagnitude, int firstSubstractive, int secondSubstractive) 
     {   
         var result = Math.DivRem(_reminder, orderOfMagnitude, out _reminder);    
          
-        if(isSubstractive(result, firstSubstractive, secondSubstractive)) 
+        if(isSubstractive(result)) 
         {
             _sb.Append(substractive[result * orderOfMagnitude]);          
              return this;
@@ -102,9 +102,9 @@ public class RomanConverter
        return this;
     }
     
-    bool isSubstractive(int number, int firstValue, int secondValue) 
+    bool isSubstractive(int number) 
     {
-        return number == firstValue || number == secondValue;
+        return number == 4 || number == 9;
     }
     
   

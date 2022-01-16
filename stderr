@@ -1,0 +1,6 @@
+RomanConverter.cs(32,13): error CS1501: No overload for method `isSubstractive' takes `3' arguments
+RomanConverter.cs(105,10): (Location of the symbol related to previous error)
+RomanConverter.cs(56,13): error CS1501: No overload for method `isSubstractive' takes `3' arguments
+RomanConverter.cs(105,10): (Location of the symbol related to previous error)
+RomanConverter.cs(78,16): error CS1501: No overload for method `AppendOrderOfMagnitude' takes `1' arguments
+RomanConverter.cs(81,20): (Location of the symbol related to previous error)
