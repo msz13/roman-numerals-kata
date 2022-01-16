@@ -8,7 +8,7 @@ public class RomanConverter
     StringBuilder _sb;
     int _reminder;
     
-    public RomanConverter(int arabic)
+    private RomanConverter(int arabic)
     {
         _reminder = arabic;
         _sb = new StringBuilder("");
@@ -59,7 +59,7 @@ public class RomanConverter
        return  localReminder;
     }
     
-     
+    
     
   
     private Dictionary<int, char> symbols = new Dictionary<int, char>() 
